@@ -1,0 +1,78 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">150dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Activity Main | Navigation Drawer-->
+    <dimen name="item_padding_navigation_drawer">18dp</dimen>
+    <dimen name="text_size_item_navigation_drawer">18sp</dimen>
+
+    <!-- Activity Main | Navigation Drawer Header (Nav Header Main) -->
+    <dimen name="padding_top_head_drawer">45dp</dimen>
+    <dimen name="padding_bottom_head_drawer">12dp</dimen>
+    <dimen name="padding_R_L_head_drawer">16dp</dimen>
+    <dimen name="square_logo_head_drawer">64dp</dimen>
+    <dimen name="logo_margin_right">12dp</dimen>
+    <dimen name="radius_image_header_drawer">12dp</dimen>
+    <dimen name="logo_padding_for_background">5dp</dimen>
+    <dimen name="logo_name_size">25sp</dimen>
+
+    <!-- Activity Main | Appbar (App Bar Main) -->
+    <dimen name="height_appbar_main">95dp</dimen>
+
+    <!-- Activity Main | Collapsing Toolbar (App Bar Main) -->
+    <dimen name="margin_bottom_collapsing">10dp</dimen>
+    <dimen name="margin_start_collapsing">18dp</dimen>
+    <dimen name="margin_start_title_collapsing">0dp</dimen>
+
+    <!-- Activity Main | First Item (List Item First Recycler View) -->
+    <dimen name="height_first_item">266dp</dimen>
+    <dimen name="height_image_background">160dp</dimen>
+    <dimen name="margin_R_L_image_background">16dp</dimen>
+    <dimen name="margin_top_image_background">12dp</dimen>
+    <dimen name="radius_background">12dp</dimen>
+    <dimen name="elevation_1">5dp</dimen>
+    <dimen name="elevation_2">8dp</dimen>
+    <dimen name="height_container">146dp</dimen>
+    <dimen name="margin_R_L_container">24dp</dimen>
+    <dimen name="margin_bottom_container">12dp</dimen>
+    <dimen name="height_container_O_E">168dp</dimen>
+    <dimen name="square_image_O_E">120dp</dimen>
+
+    <!-- Dah, capek banget ini bikin dimen sesuai fragment. saya ganti jadi list biasa / universal aja -->
+    <!-- ukuran biasa -->
+    <dimen name="v_3">3dp</dimen>
+    <dimen name="v_5">5dp</dimen>
+    <dimen name="v_10">10dp</dimen>
+    <dimen name="v_11">11dp</dimen>
+    <dimen name="v_12">12dp</dimen>
+    <dimen name="v_15">15dp</dimen>
+    <dimen name="v_21">21dp</dimen>
+    <dimen name="v_23">23dp</dimen>
+    <dimen name="v_24">24dp</dimen>
+    <dimen name="v_36">36dp</dimen>
+    <dimen name="v_56">56dp</dimen>
+    <dimen name="v_104">104dp</dimen>
+    <dimen name="v_7">7dp</dimen>
+    <dimen name="v_14">14dp</dimen>
+    <dimen name="v_0">0dp</dimen>
+    <dimen name="v_8">8dp</dimen>
+
+    <!-- ukuran huruf -->
+    <dimen name="vt_16">16sp</dimen>
+    <dimen name="vt_12">12sp</dimen>
+    <dimen name="vt_14">14sp</dimen>
+    <dimen name="vt_30">30sp</dimen>
+
+    <!-- Detail Activity -->
+    <dimen name="height_collapsing_tollbar">350dp</dimen>
+    <dimen name="height_gradient_color_cover">185dp</dimen>
+    <dimen name="circle_profil_detail">100dp</dimen>
+    <dimen name="padding_for_detail">16dp</dimen>
+    <dimen name="border_width_profil">5dp</dimen>
+    <dimen name="height_tab">44dp</dimen>
+    <dimen name="margin_bottom_pengelompokan">77dp</dimen>
+</resources>

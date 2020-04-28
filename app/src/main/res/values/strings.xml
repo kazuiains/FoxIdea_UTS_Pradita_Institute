@@ -1,0 +1,745 @@
+<resources>
+    <string name="app_name">Fox Idea</string>
+
+    <string name="menu_darat">Hewan Darat</string>
+    <string name="menu_laut">Hewan Laut</string>
+    <string name="menu_udara">Hewan Udara</string>
+    <string name="menu_buah">Buah-Buahan</string>
+    <string name="menu_sayur">Sayur-Sayuran</string>
+    <string name="menu_tentang">Tentang</string>
+
+    <string name="logo_name_1">FOX</string>
+    <string name="logo_name_2">IDEA</string>
+
+    <string name="bersuara">Dengarkan Suaraku</string>
+    <string name="tak_bersuara">Aku Tak Bersuara</string>
+    <string name="manfaat">Manfaat Diriku</string>
+    <string name="bersuara_edit">Dengarkan Suara </string>
+    <string name="tak_bersuara_edit"> Tak Bersuara</string>
+    <string name="manfaat_edit">Manfaat </string>
+    <string name="berhenti">Berhenti Mendengarkan</string>
+    <string name="A">Animalia</string>
+    <string name="P">Plantae</string>
+    <string name="N">-</string>
+
+    <string name="may">Muhammad Adi Yusuf</string>
+    <string name="ttgl">Jakarta, 4 Agustus 1999</string>
+    <string name="nim">NIM</string>
+    <string name="value_nim">170101011</string>
+    <string name="data_diri">Data Diri</string>
+    <string name="prodi">Prodi</string>
+    <string name="value_prodi">Teknik Informatika</string>
+    <string name="angkatan">Angkatan</string>
+    <string name="value_angkatan">2017</string>
+    <string name="line">ID Line</string>
+    <string name="value_line">kaisar21</string>
+    <string name="no">No / WA</string>
+    <string name="value_no">087883933871</string>
+    <string name="pengenalan">Pengenalan Singkat</string>
+    <string name="isi">Seorang yang suka dengan ANIME dana hal-hal jepang lainnya. dan juga suka sekali dengan Programming. begitulah. jangan lupa beri nilai A ya. dibawah nilai A saya tidak terima :v</string>
+
+    <string name="tab1">Info</string>
+    <string name="tab2">Foto</string>
+
+    <string name="nama_hewan">Nama</string>
+    <string name="nama_ilmiah_hewan">Nama Ilmiah</string>
+    <string name="kingdom_hewan">Kingdom</string>
+    <string name="kelas_hewan">Kelas</string>
+    <string name="ordo_hewan">Ordo</string>
+    <string name="famili_hewan">Famili</string>
+
+    <string name="deksrip_detail">Deskripsi Diriku</string>
+    <string name="pengelompokan_detail">Pengelompokan Diriku</string>
+
+    <string name="img_descript_profile">ini profil</string>
+    <string name="img_descript_background">ini background</string>
+
+    <string-array name="name">
+        <item>Singa</item>
+        <item>Serigala</item>
+        <item>Rubah Merah</item>
+        <item>Gorila</item>
+        <item>Rakun</item>
+        <item>Gajah</item>
+        <item>Kuda</item>
+        <item>Panda</item>
+        <item>Sapi</item>
+        <item>Llama</item>
+        <item>Lumba-lumba</item>
+        <item>Paus Pembunuh</item>
+        <item>Koi</item>
+        <item>Lobster</item>
+        <item>Ikan Giru</item>
+        <item>Kuda Laut</item>
+        <item>Belut Listrik</item>
+        <item>Udang</item>
+        <item>Ikan Mas</item>
+        <item>Hiu Martil</item>
+        <item>Gagak</item>
+        <item>Elang Bondol</item>
+        <item>Hantu Kelabu</item>
+        <item>Pelikan</item>
+        <item>Cenderawasih</item>
+        <item>Merpati</item>
+        <item>Kakatua	</item>
+        <item>Beo</item>
+        <item>Kolibri</item>
+        <item>Cucak rawa</item>
+        <item>Semangka</item>
+        <item>Manggis</item>
+        <item>Sirsak</item>
+        <item>Apel</item>
+        <item>Jeruk</item>
+        <item>Pisang</item>
+        <item>Pir</item>
+        <item>Alpukat</item>
+        <item>Stroberi</item>
+        <item>Nanas</item>
+        <item>Terung</item>
+        <item>Mentimun</item>
+        <item>Jagung</item>
+        <item>Tomat</item>
+        <item>Wortel</item>
+        <item>Kentang</item>
+        <item>Bayam</item>
+        <item>Pare</item>
+        <item>Seledri</item>
+        <item>Selada</item>
+    </string-array>
+
+    <string-array name="kingdom">
+        <item>Animalia</item>
+        <item>Animalia</item>
+        <item>Animalia</item>
+        <item>Animalia</item>
+        <item>Animalia</item>
+        <item>Animalia</item>
+        <item>Animalia</item>
+        <item>Animalia</item>
+        <item>Animalia</item>
+        <item>Animalia</item>
+        <item>Animalia</item>
+        <item>Animalia</item>
+        <item>Animalia</item>
+        <item>Animalia</item>
+        <item>Animalia</item>
+        <item>Animalia</item>
+        <item>Animalia</item>
+        <item>Animalia</item>
+        <item>Animalia</item>
+        <item>Animalia</item>
+        <item>Animalia</item>
+        <item>Animalia</item>
+        <item>Animalia</item>
+        <item>Animalia</item>
+        <item>Animalia</item>
+        <item>Animalia</item>
+        <item>Animalia</item>
+        <item>Animalia</item>
+        <item>Animalia</item>
+        <item>Animalia</item>
+        <item>Plantae</item>
+        <item>Plantae</item>
+        <item>Plantae</item>
+        <item>Plantae</item>
+        <item>Plantae</item>
+        <item>Plantae</item>
+        <item>Plantae</item>
+        <item>Plantae</item>
+        <item>Plantae</item>
+        <item>Plantae</item>
+        <item>Plantae</item>
+        <item>Plantae</item>
+        <item>Plantae</item>
+        <item>Plantae</item>
+        <item>Plantae</item>
+        <item>Plantae</item>
+        <item>Plantae</item>
+        <item>Plantae</item>
+        <item>Plantae</item>
+        <item>Plantae</item>
+    </string-array>
+
+    <string-array name="kelas">
+        <item>Mammalia</item>
+        <item>Mammalia</item>
+        <item>Mammalia</item>
+        <item>Mammalia</item>
+        <item>Mammalia</item>
+        <item>Mammalia</item>
+        <item>Mammalia</item>
+        <item>Mammalia</item>
+        <item>Mammalia</item>
+        <item>Mammalia</item>
+        <item>Mammalia</item>
+        <item>Mammalia</item>
+        <item>Actinopterygii</item>
+        <item>Malacostraca</item>
+        <item>Actinopterygii</item>
+        <item>Actinopterygii</item>
+        <item>Actinopterygii</item>
+        <item>Malacostraca</item>
+        <item>Actinopterygii</item>
+        <item>Chondrichthyes</item>
+        <item>Aves</item>
+        <item>Aves</item>
+        <item>Aves</item>
+        <item>Aves</item>
+        <item>Aves</item>
+        <item>Aves</item>
+        <item>Aves</item>
+        <item>Aves</item>
+        <item>Aves</item>
+        <item>Aves</item>
+        <item>Magnoliopsida</item>
+        <item>Magnoliopsida</item>
+        <item>Magnoliopsida</item>
+        <item>Magnoliopsida</item>
+        <item>Magnoliopsida</item>
+        <item>Liliopsida</item>
+        <item>Magnoliopsida</item>
+        <item>Magnoliopsida</item>
+        <item>Magnoliopsida</item>
+        <item>Magnoliopsida</item>
+        <item>Magnoliopsida</item>
+        <item>Magnoliopsida</item>
+        <item>Liliopsida</item>
+        <item>Magnoliopsida</item>
+        <item>Magnoliopsida</item>
+        <item>Magnoliopsida</item>
+        <item>Magnoliopsida</item>
+        <item>Magnoliopsida</item>
+        <item>Magnoliopsida</item>
+        <item>Magnoliopsida</item>
+    </string-array>
+
+    <string-array name="ordo">
+        <item>Carnivora</item>
+        <item>Carnivora</item>
+        <item>Carnivora</item>
+        <item>Primates</item>
+        <item>Carnivora</item>
+        <item>Proboscidea</item>
+        <item>Perissodactyla</item>
+        <item>Carnivora</item>
+        <item>Artiodactyla</item>
+        <item>Artiodactyla</item>
+        <item>Cetacea</item>
+        <item>Artiodactyla</item>
+        <item>Cypriniformes</item>
+        <item>Decapoda</item>
+        <item>Perciformes</item>
+        <item>Syngnathiformes</item>
+        <item>Gymnotiformes</item>
+        <item>Decapoda</item>
+        <item>Cypriniformes</item>
+        <item>Carcharhiniformes</item>
+        <item>Passeriformes</item>
+        <item>Accipitriformes</item>
+        <item>Strigiformes</item>
+        <item>Pelecaniformes</item>
+        <item>Passeriformes</item>
+        <item>Columbiformes</item>
+        <item>Psittaciformes</item>
+        <item>Passeriformes</item>
+        <item>Apodiformes</item>
+        <item>Passeriformes</item>
+        <item>Cucurbitales</item>
+        <item>Malpighiales</item>
+        <item>Magnoliales</item>
+        <item>Rosales</item>
+        <item>Sapindales</item>
+        <item>Musales</item>
+        <item>Rosales</item>
+        <item>Laurales</item>
+        <item>Rosales</item>
+        <item>Poales</item>
+        <item>Solanales</item>
+        <item>Cucurbitales</item>
+        <item>Poales</item>
+        <item>Solanales</item>
+        <item>Apiales</item>
+        <item>Solanales</item>
+        <item>Caryophyllales</item>
+        <item>Violales</item>
+        <item>Apiales</item>
+        <item>Asterales</item>
+    </string-array>
+
+    <string-array name="famili">
+        <item>Felidae</item>
+        <item>Canidae</item>
+        <item>Canidae</item>
+        <item>Hominidae</item>
+        <item>Procyonidae</item>
+        <item>Elephantidae</item>
+        <item>Equidae</item>
+        <item>Ursidae</item>
+        <item>Bovidae</item>
+        <item>Camelidae</item>
+        <item>Delphinidae</item>
+        <item>Delphinidae</item>
+        <item>Cyprinidae</item>
+        <item>Nephropidae</item>
+        <item>Pomacentridae</item>
+        <item>Syngnathidae</item>
+        <item>Gymnotidae</item>
+        <item>Penaeidae</item>
+        <item>Cyprinidae</item>
+        <item>Sphyrnidae</item>
+        <item>Corvidae</item>
+        <item>Accipitridae</item>
+        <item>Strigidae</item>
+        <item>Pelecanidae</item>
+        <item>Paradisaeidae</item>
+        <item>Columbidae</item>
+        <item>Cacatuidae</item>
+        <item>Sturnidae</item>
+        <item>Trochilidae</item>
+        <item>Pycnonotidae</item>
+        <item>Cucurbitaceae</item>
+        <item>Clusiaceae</item>
+        <item>Annonaceae</item>
+        <item>Rosaceae</item>
+        <item>Rutaceae</item>
+        <item>Musaceae</item>
+        <item>Rosaceae</item>
+        <item>Lauraceae</item>
+        <item>Rosaceae</item>
+        <item>Bromeliaceae</item>
+        <item>Solanaceae</item>
+        <item>Cucurbitaceae</item>
+        <item>Poaceae</item>
+        <item>Solanaceae</item>
+        <item>Apiaceae</item>
+        <item>Solanaceae</item>
+        <item>Amaranthaceae</item>
+        <item>Cucurbitaceae</item>
+        <item>Apiaceae</item>
+        <item>Asteraceae</item>
+    </string-array>
+
+    <string-array name="science_name">
+        <item>Panthera leo</item>
+        <item>Canis lupus</item>
+        <item>Vulpes vulpes</item>
+        <item>Gorilla</item>
+        <item>Procyon lotor</item>
+        <item>Elephantidae</item>
+        <item>Equus caballus</item>
+        <item>Ailuropoda melanoleuca</item>
+        <item>Bos Taurus</item>
+        <item>Lama glama</item>
+        <item>Delphinus</item>
+        <item>Orcinus orca</item>
+        <item>Cyprinus carpio</item>
+        <item>Panulirus versicolor</item>
+        <item>Amphiprioninae</item>
+        <item>Hippocampus</item>
+        <item>Electrophorus electricus</item>
+        <item>Caridea</item>
+        <item>Cyprinus carpio</item>
+        <item>Sphyrnidae</item>
+        <item>Corvus</item>
+        <item>Haliastur indus</item>
+        <item>Strix Nebulosa</item>
+        <item>Pelecanus</item>
+        <item>Paradisaeidae</item>
+        <item>Columba livia</item>
+        <item>Cacatuidae</item>
+        <item>Psittaciformes</item>
+        <item>Trochilidae</item>
+        <item>Pycnonotus zeylanicus</item>
+        <item>Citrullus lanatus</item>
+        <item>Garcinia mangostana</item>
+        <item>Annona muricata</item>
+        <item>Malus domestica</item>
+        <item>Citrus</item>
+        <item>Musa</item>
+        <item>Pyrus</item>
+        <item>Persea americana</item>
+        <item>Fragaria x ananassa</item>
+        <item>Ananas comosus</item>
+        <item>Solanum melongena	</item>
+        <item>Cucumis sativus</item>
+        <item>Zea mays ssp. mays</item>
+        <item>Solanum lycopersicum</item>
+        <item>Daucus carota</item>
+        <item>Solanum tuberosum</item>
+        <item>Amaranthus</item>
+        <item>Momordica charantia</item>
+        <item>Apium graveolens</item>
+        <item>Lactuca sativa</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Singa adalah spesies hewan dari keluarga felidae atau jenis kucing. Singa merupakan hewan yang hidup berkelompok. Biasanya terdiri dari seekor jantan dan banyak betina. Kelompok ini menjaga daerah kekuasaannya. Umur singa antara 10 sampai 15 tahun di alam bebas, tetapi dalm penangkaran memungkinkan lebih dari 20 tahun.	</item>
+        <item>Serigala abu–abu atau serigala adalah binatang mamalia karnivora. Serigala abu–abu mempunyai asal usul yang sama dengan anjing luar negeri dari keluarga Canis lupus melalui bukti pengurutan DNA dan penyelidikan genetika. Beberapa jenis anjing juga memiliki bentuk fisik yang mirip dengan serigala, contohnya anjing jenis Siberian Husky, Malamut Alaska dan Samoyed. Secara umum, serigala mempunyai tinggi sekitar 60 cm sampai 80 cm (26–32 inci) dan berat sekitar 23–59 kilogram.</item>
+        <item>Rubah merah adalah mamalia pada ordo karnivora. Di Britania Raya dan Irlandia, rubah merah disebut \"rubah\" pada tempat yang tidak terdapat kanid liar asli. Rubah ini habitatnya terletak di Kanada, Alaska, Amerika Serikat, Eropa, Afrika Utara dan Asia, termasuk Jepang. Rubah merah diperkenalkan di Australia pada abad ke-19. Seperti namanya, bulu rubah ini berwarna merah kecoklatan.</item>
+        <item>Gorila adalah jenis primata yang terbesar. Makanan gorila terdiri dari sayur–sayuran, walaupun kadang juga makan serangga. Karena itu gorila dapat digolongkan sebagai binatang omnivora. Gorila berasal dari hutan tropis di Afrika. 97–98% DNA gorila identik dengan DNA manusia. Gorila adalah spesies kedua setelah simpanse yang terdekat dengan manusia. Ada dua spesies dalam genus gorila, yaitu gorila timur (eastern gorila) dan gorila barat (western gorila).</item>
+        <item>Rakun adalah Mamalia berukuran sedang yang berasal dari Amerika Utara. Rakun adalah spesies terbesar dalam keluarga Procyonidae, memiliki panjang tubuh 40 hingga 70 cm (16 hingga 28 in) dan berat 3,5 hingga 9 kg (8 hingga 20 lb). Kulitnya terdiri dari rambut abu-abu yang tebal untuk mencegah masuknya hawa dingin kedalam tubuh. Hewan ini dikenal karena cakarnya yang sangat tangkas dan topeng wajahnya yang termasuk kedalam salah-satu tema mitologi beberapa suku asli Amerika. Rakun dikenal karena kecerdasannya, dengan studi menunjukan bahwa hewan ini bisa mengingat solusi berbagai permasalahan sampai 3 tahun lamanya. Rakun adalah hewan omnivora, yang biasanya nokturnal, makanannya terdiri dari sekitar 40\% invertebrata, 33\% tumbuhan dan 27\% vertebrata.</item>
+        <item>Gajah adalah mamalia besar dari famili Elephantidae dan ordo Proboscidea. Secara tradisional, terdapat dua spesies yang diakui, yaitu gajah afrika (Loxodonta africana) dan gajah asia (Elephas maximus), walaupun beberapa bukti menunjukkan bahwa gajah semak afrika dan gajah hutan afrika merupakan spesies yang berbeda (L. africana dan L. cyclotis). Gajah tersebar di seluruh Afrika sub-Sahara, Asia Selatan, dan Asia Tenggara. Elephantidae adalah satu-satunya famili dari ordo Proboscidea yang masih ada; famili lain yang kini sudah punah termasuk mamut dan mastodon. Gajah afrika jantan merupakan hewan darat terbesar dengan tinggi hingga 4 m dan massa yang juga dapat mencapai 7.000 kg. Gajah memiliki ciri-ciri khusus, dan yang paling mencolok adalah belalai atau proboscis yang digunakan untuk banyak hal, terutama untuk bernapas, menghisap air, dan mengambil benda. Gigi serinya tumbuh menjadi taring yang dapat digunakan sebagai senjata dan alat untuk memindahkan benda atau menggali. Daun telinganya yang besar membantu mengatur suhu tubuh mereka. Gajah afrika memiliki telinga yang lebih besar dan punggung yang cekung, sementara telinga gajah asia lebih kecil dan punggungnya cembung.</item>
+        <item>Kuda adalah salah saikung matan sapuluh spésiés modérn mamalia matan genus Equus. Binatang naya sudah lawas manjadi salah satu binatang tarnak nang panting sacara ikunumis, wan sudah maingkuti paranan panting sabagai alat pangkutan urang wan barang baribu-ribu tahun lawasnya.</item>
+        <item>Panda adalah seekor mamalia yang biasanya diklasifikasikan ke dalam keluarga beruang, Ursidae, yang merupakan hewan asli Tiongkok Tengah. Panda Raksasa tinggal di wilayah pegunungan, seperti Sichuan dan Tibet. Pada setengah abad ke-20 terakhir, panda menjadi semacam lambang negara Tiongkok, dan sekarang ditampilkan pada uang emas negara tersebut.</item>
+        <item>Sapi adalah hewan ternak anggota suku Bovidae dan anak suku Bovinae. Sapi yang telah dikebiri dan biasanya digunakan untuk membajak sawah dinamakan Lembu. Sapi dipelihara terutama untuk dimanfaatkan susu dan dagingnya sebagai pangan manusia. Hasil sampingannya seperti kulit, jeroan, tanduk, dan kotorannya juga dimanfaatkan untuk berbagai keperluan manusia. Di sejumlah tempat, sapi juga dipakai sebagai penggerak alat transportasi, pengolahan lahan tanam (bajak), dan alat industri lain (seperti peremas tebu). Karena banyak kegunaan ini, sapi telah menjadi bagian dari berbagai kebudayaan manusia sejak lama.</item>
+        <item>Llama adalah binatang camelidae yang juga binatang asli Amerika Selatan. Llama juga biasa digunakan sebagai binatang pengangkut barang oleh masyarakat Inka dan masyrakat di sekitar pegununungan Andes. Binatang ini bisa mencapai tinggi 1,6 meter hingga 1,8 meter dengan berat 127 kilogram hingga 204 kilogram. Bayi Llama (disebut cria) memiliki berat antara 9 kg hingga 14 kg. Llama adalah binatang sosial yang hidup secara berkelompok. Llama dapat membawa barang 25\% hingga 30\% dari berat badannya.</item>
+        <item>Lumba-lumba adalah mamalia laut yang sangat cerdas, selain itu sistem alamiah yang melengkapi tubuhnya sangat kompleks. Sehingga banyak teknologi yang terinspirasi dari lumba-lumba. Salah satu contoh adalah kulit lumba-lumba yang mampu memperkecil gesekan dengan air, sehingga lumba-lumba dapat berenang dengan sedikit hambatan air. Hal ini yang digunakan para perenang untuk merancang baju renang yang mirip kulit lumba-lumba.</item>
+        <item>Paus Pembunuh, Seguni, atau Orca (Orcinus orca) adalah spesies terbesar dari keluarga lumba-lumba. Sebenarnya paus ini tergolong sebagai lumba-lumba. Namun, karena ukurannya yang sangat besar dibanding lumba-lumba lain, banyak yang menyebutnya sebagai paus. Spesies ini ditemukan di seluruh samudera, dari kawasan dingin seperti Arktik dan Antarktika hingga kawasan bersuhu hangat. Seguni merupakan pemangsa puncak di lautan, dimana sebagian besarnya memangsa ikan, sementara kelompok lainnya memakan mamalia laut seperti singa laut, anjing laut, walrus hingga paus besar. Pada 4 Oktober 1997 di lepas pantai California, Amerika Serikat, sekelompok pengamat paus yang sedang bepergian di Pulau Farallon telah merekam sebuah kejadian unik mengenai seguni yang menyerang hiu putih dewasa dan kemudian memakan hiu tersebut. Pernyataan yang mengatakan bahwa Hiu merupakan pemangsa yang mengendalikan rantai makanan teratas di laut pun terpatahkan karena peristiwa itu. Seguni hidup secara berkelompok, dimana mereka sering berburu bersama dengan anak-anaknya yang masih belajar berburu. IUCN menetapkan status konservasi hewan ini sebagai tidak diketahui, karena beberapa paus pembunuh berbeda jenis. Beberapa populasi lokal sudah terancam karena kehilangan habitat, pengaruh polusi, dan ditangkap untuk tujuan atraksi laut, serta terkadang munculnya konflik dengan nelayan.</item>
+        <item>Koi atau secara spesifiknya koi berasal dari bahasa Jepang yang berarti ikan karper. Lebih spesifik lagi merujuk pada nishikigoi, yang kurang lebih bermakna ikan karper yang bersulam emas atau perak. Di Jepang, koi menjadi semacam simbol cinta dan persahabatan. Ini karena koi merupakan homofon untuk kata lain yang juga bermakna kasih sayang atau cinta. Ikan Koi adalah sejenis ikan yang termasuk ikan mas (Cyprinus carpio) yang mempunyai ornamen yang sangat indah dan jinak. Koi biasanya dipelihara sebagai hiasan dengan tujuan keindahkan dan keberuntungan di dalam rumah dan luar rumah (kolam koi atau taman air, karena ikan koi dipercaya membawa keberuntungan. Karena ikan koi sangat dekat berkerabat dengan ikan mas, dan oleh karena itu di Indonesia banyak orang menyebutnya ikan mas koi.</item>
+        <item>Lobster bercapit membentuk sebuah keluarga (Nephropidae, kadangkala juga Homaridae) dari crustacean besar laut. Mereka penting sebagai hewan, bisnis, dan makanan.</item>
+        <item>Ikan giru atau lebih dikenal dengan sebutan ikan badut adalah ikan dari anak suku Amphiprioninae dalam suku Pomacentridae. Ada dua puluh delapan spesies yang biasa dikenali, salah satunya adalah genus Premnas, sementara sisanya termasuk dalam genus Amphiprion. Mereka tersebar di lautan Pasifik, Laut Merah, lautan India, dan karang besar Australia. Di alam bebas mereka bersimbiosis dengan anemon laut. Anemon akan melindungi Ikan badut dari pemangsa dan Ikan badut akan membersihkan Anemon dengan memakan sisa - sisa makanan Anemon. Ikan badut berwarna kuning, jingga, kemerahan atau kehitaman. Spesies terbesar mencapai panjang 18 cm, sementara yang terkecil hanya 6 cm.</item>
+        <item>Kuda laut adalah jenis ikan yang hidup di laut dari genus Hippocampus dan famili Syngnathidae. Hewan dengan ukuran yang bervariasi antara 16 mm (untuk spesies Hippocampus denise) sampai 35 cm ini dapat ditemukan di perairan tropis dan menengah di seluruh dunia. Kuda laut merupakan satu-satunya spesies yang jantannya dapat hamil. Sirip dorsal pada kuda laut terletak pada bagian bawah sedangkan sirip pektoralnya terletak pada bagian kepala, di dekat insang. Beberapa spesies kuda laut berwarna transparan sebagian, sehingga tidak mudah terlihat.</item>
+        <item>Sidat listrik atau belut listrik adalah sejenis ikan air tawar yang dapat menghasilkan aliran listrik kuat (sampai 650 volt) untuk berburu dan membela diri. Walaupun disebut sidat atau belut, ia termasuk anggota ordo Gymnotiformes, yang tidak mencakup keduanya. Sidat listrik biasa ditemukan di Sungai Amazon dan Sungai Orinoko serta daerah-daerah di sekitarnya. Ia bisa tumbuh hingga panjang 2,5 m (8,2 kaki) dan berat 20 kg (44 pound), walaupun biasanya ukuran rata-ratanya adalah 1 m.</item>
+        <item>Udang adalah binatang yang hidup di perairan, khususnya sungai, laut, atau danau. Udang dapat ditemukan di hampir semua \"genangan\" air yang berukuran besar baik air tawar, air payau, maupun air asin pada kedalaman bervariasi, dari dekat permukaan hingga beberapa ribu meter di bawah permukaan.</item>
+        <item>kan mas atau Ikan karper adalah ikan air tawar yang bernilai ekonomis penting dan sudah tersebar luas di Indonesia. Di Indonesia, ikan mas mulai dipelihara sekitar tahun 1920-an. Ikan mas yang terdapat di Indonesia merupakan ikan mas yang dibawa dari Cina, Eropa, Taiwan dan Jepang. Selain itu \"ikan mas punten\" dan \"ikan mas majalaya\" merupakan hasil seleksi di Indonesia. Sampai saat ini sudah terdapat 10 ikan mas yang dapat diidentifikasi berdasarkan karakteristik morfologisnya.</item>
+        <item>Hiu martil dari genus Sphyrna adalah anggota dari famili Sphyrnidae. Satu-satunya genus selain Sphyrnidae, Eusphyra, terdiri dari hanya satu spesies, Esphyra blochii, winghead shark. Sembilan spesies hiu martil yang sudah diketahui memiliki panjang antara 2 hingga 6 meter (6,5 hingga 20 kaki), dan semua spesies memiliki proyeksi kepala menyerupai martil gepeng bila dilihat dari salah satu sisi. Mata dan lubang hidung ada di ujung kepala.	</item>
+        <item>Gagak adalah anggota burung pengicau (Passeriformes) yang termasuk dalam marga Corvus, suku Corvidae. Hampir semua jenis burung ini berukuran relatif besar dan berwarna bulu dominan hitam. Daerah sebarannya ada di seluruh benua dan kepulauan, dengan perkecualian di Amerika Selatan.</item>
+        <item>Elang bondol berkuran sedang (43–51 cm), memiliki sayap yang lebar dengan ekor pendek dan membulat ketika membentang. Bagian kepala, leher dan dada berwarna putih, sisanya berwarna merah bata pucat, bagian ujung bulu primer berwarna hitam, dan tungkai berwarna kuning. Pada individu anak secara keseluruhan berwarna coklat gelap, pada beberapa bagian bergaris-garis putih mengkilap.</item>
+        <item>Burung hantu kelabu besar (Great Gray Owl atau Strix nebulosa) adalah salah satu spesies burung hantu yang pertama kali dideskripsikan oleh Johann Reinhold Forster (seorang naturalis yang mengikuti perjalanan Kapten James Cook pada pelayaran keliling dunia yang kedua) pada 1772. Nama nebulosa itu diadaptasi dari kata nebulosus yang berarti berkabut (foggy). Burung ini memiliki julukan lain yang cukup banyak: Great Gray Ghost (hantu kelabu besar), Phantom of the north, cinerous owl, spectral owl, lapland owl, spruce owl, bearded owl dan sooty owl. Ia menjadi logo provinsi Manitoba di Kanada. Burung yang berukuran panjang 61 – 84 cm dan berat 790 – 1454 gram ini aktif di malam hari, termasuk kala senja dan sebelum fajar menyingsing. Ia juga aktif di siang hari, ketika masa bertelur. Kala musim dingin, burung ini membutuhkan pengerat kecil itu sebanyak sepertiga berat tubuhnya per hari. Sang betina wajib menumpuk cadangan makanan untuk bertahan hidup melampaui bulan-bulan musim panas yang jauh lebih sulit.</item>
+        <item>Burung undan atau pelikan adalah burung air yang memiliki kantung di bawah paruhnya, dan merupakan bagian dari keluarga burung Pelecanidae. Bersama burung pecuk, pecuk ular, gannet, angsa batu, dan cikalang, mereka membentuk ordo Pelecaniformes. Pelikan modern ditemukan di semua benua kecuali Antartika. Mereka hidup umumnya di wilayah hangat, dan mereka tidak dijumpai di wilayah kutub, laut dalam, kepulauan samudra, dan benua Amerika Selatan.</item>
+        <item>Cenderawasih merupakan anggota famili Paradisaeidae dari ordo Passeriformes. Mereka ditemukan di Indonesia timur, pulau-pulau selat Torres, Papua Nugini, dan Australia timur. Burung anggota keluarga ini dikenal karena bulu burung jantan pada banyak jenisnya, terutama bulu yang sangat memanjang dan rumit yang tumbuh dari paruh, sayap atau kepalanya. Ukuran burung Cenderawasih mulai dari Cenderawasih raja pada 50 gram dan 15 cm hingga Cenderawasih paruh-sabit Hitam pada 110 cm dan Cenderawasih manukod jambul-bergulung pada 430 gram.</item>
+        <item>Burung Merpati (bahasa Inggeris: Domestic Pigeon). Nama sainsnya ialah Columba domestica. Burung Merpati merupakan burung yang paling dikenali dari keluarga Columbidae yang merangkumi sekitar 310 spesies. Merpati adalah burung yang berbadan gempal dengan leher pendek, dan halus, paruh langsing dengan cere pangkal paruh berisi. Mereka makan biji benih, buah-buahan dan tumbuh-tumbuhan. Keluarga ini terdapat di seluruh dunia, tetapi pelbagai yang paling besar adalah di Indomalaya dan ekozon Australasia.</item>
+        <item>Kakatua (suku Cacatuidae) adalah jenis burung hias yang memiliki bulu yang indah dengan lengkingan suara yang cukup nyaring. Spesies ini termasuk salah satu burung dengan kecerdasan yang cukup bagus, sehingga sering digunakan untuk acara-acara hiburan di kebun binatang atau tempat hiburan lainnya.</item>
+        <item>Beo, mamiang, atau tiong emas (Gracula) adalah sejenis burung anggota suku Sturnidae (jalak dan kerabatnya). Wilayah persebaran alaminya adalah mulai dari Sri Lanka, India, Himalaya, ke timur hingga Filipina, jawa hingga kepulauan sunda kecil. Burung ini dapat ditemukan di dataran rendah hingga dataran tinggi lebih dari 2000m. Karena kemampuannya menirukan bahasa manusia, burung ini menjadi hewan peliharaan yang diminati.</item>
+        <item>Kolibri adalah burung kecil dengan panjang 6,4 cm dan berwarna cerah yang sebagian besar hidup di Amerika Utara dan Amerika Selatan. Seekor kolibri mempunyai sekitar seribu bulu yang bergemerlapan sehingga dapat memantulkan dan memencarkan sinar warna - warni yang dapat berubah ketika burung bergerak seperti minyak pada air. Ada lebih dari 300 spesies burung kolibri hidup di dalam wilayah hutan Amazon, Amerika Selatan. Sedangkan kolibri jenis Sword Billed, ensifera hidup di bagian barat hutan pegunungan Andes.</item>
+        <item>Cucak rawa adalah sejenis burung pengicau dari suku Pycnonotidae. Burung ini juga dikenal umum sebagai cucakrawa (dalam bahasa Jawa dilafazkan sebagai [cucaʔ rɔwɔ]), cangkurawah (Sunda), dan barau-barau (Melayu). Dalam bahasa Inggris disebut Straw-headed Bulbul, mengacu pada warna kepalanya yang kuning-jerami pucat. Nama ilmiahnya adalah Pycnonotus zeylanicus</item>
+        <item>Semangka atau tembikai (Citrullus lanatus, suku ketimun-ketimunan atau Cucurbitaceae) adalah tanaman merambat yang berasal dari daerah setengah gurun di Afrika bagian selatan. Tanaman ini masih sekerabat dengan labu-labuan (Cucurbitaceae), melon (Cucumis melo) dan ketimun (Cucumis sativus). Semangka biasa dipanen buahnya untuk dimakan segar atau dibuat jus. Biji semangka yang dikeringkan dan disangrai juga dapat dimakan isinya (kotiledon) sebagai kuaci.</item>
+        <item>Manggis adalah sejenis pohon hijau abadi dari daerah tropika yang diyakini berasal dari Semenanjung Malaya dan menyebar ke Kepulauan Nusantara. Tumbuh hingga mencapai 7 sampai 25 meter. Buahnya juga disebut manggis, berwarna merah keunguan ketika matang, meskipun ada pula varian yang kulitnya berwarna merah. Buah manggis dalam perdagangan dikenal sebagai \"ratu buah\", sebagai pasangan durian, si \"raja buah\". Buah ini mengandung mempunyai aktivitas antiinflamasi dan antioksidan. Sehingga di luar negeri buah manggis dikenal sebagai buah yang memiliki kadar antioksidan tertinggi di dunia.</item>
+        <item>Sirsak, nangka belanda, atau durian belanda (Annona muricata L.) adalah tumbuhan berguna yang berasal dari Karibia, Amerika Tengah dan Amerika Selatan. Di berbagai daerah Indonesia dikenal sebagai nangka sebrang, nangka landa (Jawa), nangka walanda, sirsak (Sunda), nangka buris, nangkelan (Madura), srikaya jawa (Bali), boh lôna (Aceh), durio ulondro (Nias), durian betawi (Minangkabau), serta jambu landa (di Lampung, \"Nangko Belando\" (Palembang).</item>
+        <item>Apel adalah jenis buah-buahan, atau buah yang dihasilkan dari pohon buah apel. Buah apel biasanya berwarna merah kulitnya jika masak dan (siap dimakan), namun bisa juga kulitnya berwarna hijau atau kuning. Kulit buahnya agak lembek, daging buahnya keras. Buah ini memiliki beberapa biji di dalamnya.</item>
+        <item>Jeruk atau limau adalah semua tumbuhan berbunga anggota marga Citrus dari suku Rutaceae (suku jeruk-jerukan). Anggotanya berbentuk pohon dengan buah yang berdaging dengan rasa masam yang segar, meskipun banyak di antara anggotanya yang memiliki rasa manis. Rasa masam berasal dari kandungan asam sitrat yang memang menjadi terkandung pada semua anggotanya.</item>
+        <item>Pisang adalah nama umum yang diberikan pada tumbuhan terna raksasa berdaun besar memanjang dari suku Musaceae. Beberapa jenisnya (Musa acuminata, M. balbisiana, dan M. xparadisiaca) menghasilkan buah konsumsi yang dinamakan sama. Buah ini tersusun dalam tandan dengan kelompok-kelompok tersusun menjari yang disebut sisir. Hampir semua buah pisang memiliki kulit berwarna kuning ketika matang, meskipun ada beberapa yang berwarna jingga, merah, hijau, ungu, atau bahkan hampir hitam. Buah pisang sebagai bahan pangan merupakan sumber energi (karbohidrat) dan mineral, terutama kalium.</item>
+        <item>Pir adalah pohon yang berasal dari daerah beriklim tropis di Eropa Barat, Asia dan Afrika Utara. Pohon berketinggian sedang, bisa mencapai 10–17 meter tapi sebagian spesies merupakan pohon yang pendek yang memiliki daun yang rimbun. Daun berselang-seling, berbentuk lonjong yang lebar tapi bisa juga berbentuk membujur panjang (lanceolate) yang langsing. Panjang antara 2 sampai 12 cm. Pada sebagian spesies, daun berwarna hijau mengkilat atau sedikit berbulu berwarna keperakan. Sebagian besar pohon merontokkan daunnya di musim dingin (deciduous) dengan perkecualian dua spesies Pir di Asia Tenggara selalu berdaun hijau sepanjang tahun (evergreen).</item>
+        <item>Alpukat (Persea americana) ialah tumbuhan penghasil buah meja dengan nama sama. Tumbuhan ini berasal dari Meksiko dan Amerika Tengah dan kini banyak dibudidayakan di Amerika Selatan dan Amerika Tengah sebagai tanaman perkebunan monokultur dan sebagai tanaman pekarangan di daerah-daerah tropika lainnya di dunia. Pohon, dengan batang mencapai tinggi 20 m dengan daun sepanjang 12 hingga 25 cm. Bunganya tersembunyi dengan warna hijau kekuningan dan ukuran 5 hingga 10 milimeter. Ukurannya bervariasi dari 7 hingga 20 sentimeter, dengan massa 100 hingga 1000 gram; biji yang besar, 5 hingga 6,4 sentimeter.</item>
+        <item>Stroberi atau tepatnya stroberi kebun (juga dikenal dengan nama arbei, dari bahasa Belanda aardbei) adalah sebuah varietas stroberi yang paling banyak dikenal di dunia. Seperti spesies lain dalam genus Fragaria (stroberi), buah ini berada dalam keluarga Rosaceae. Secara umum buah ini bukanlah buah, melainkan buah palsu, artinya daging buahnya tidak berasal dari ovari tanaman (achenium) tetapi dari bagian bawah hypanthium yang berbentuk mangkok tempat ovari tanaman itu berada.</item>
+        <item>Nanas, nenas, atau ananas (Ananas comosus (L.) Merr.) adalah sejenis tumbuhan tropis yang berasal dari Brasil, Bolivia, dan Paraguay Tumbuhan ini termasuk dalam familia nanas-nanasan (Famili Bromeliaceae). Perawakan (habitus) tumbuhannya rendah, herba (menahun) dengan 30 atau lebih daun yang panjang, berujung tajam, tersusun dalam bentuk roset mengelilingi batang yang tebal. Buahnya dalam bahasa Inggris disebut sebagai pineapple karena bentuknya yang seperti pohon pinus. Nama \'nanas\' berasal dari sebutan orang Tupi untuk buah ini: anana, yang bermakna \"buah yang sangat baik\". Burung penghisap madu (hummingbird) merupakan penyerbuk alamiah dari buah ini, meskipun berbagai serangga juga memiliki peran yang sama.</item>
+        <item>Terung (Solanum melongena, di Pulau Jawa lebih dikenal sebagai terong) adalah tumbuhan penghasil buah yang dijadikan sayur–sayuran. Asalnya adalah India dan Sri Lanka. Terung berkerabat dekat dengan kentang dan leunca, dan agak jauh dari tomat. Terung ialah terna yang sering ditanam secara tahunan. Tanaman ini tumbuh hingga 40–150 cm (16–57 inci) tingginya. Daunnya besar, dengan lobus yang kasar. Ukurannya 10–20 cm (4–8 inci) panjangnya dan 5–10 cm (2–4 inci) lebarnya. Jenis-jenis setengah liar lebih besar dan tumbuh hingga setinggi 225 cm (7 kaki), dengan daun yang melebihi 30 cm (12 inci) dan 15 cm (6 inci) panjangnya. Batangnya biasanya berduri. Warna bunganya antara putih hingga ungu, dengan mahkota yang memiliki lima lobus. Benang sarinya berwarna kuning. Buah tepung berisi, dengan diameter yang kurang dari 3 cm untuk yang liar, dan lebih besar lagi untuk jenis yang ditanam.</item>
+        <item>Mentimun, timun, atau ketimun (Cucumis sativus L.; suku labu-labuan atau Cucurbitaceae) merupakan tumbuhan yang menghasilkan buah yang dapat dimakan. Buahnya biasanya dipanen ketika belum masak benar untuk dijadikan sayuran atau penyegar, tergantung jenisnya. Mentimun dapat ditemukan di berbagai hidangan dari seluruh dunia dan memiliki kandungan air cukup banyak di dalamnya sehingga berfungsi menyejukkan. Potongan buah mentimun juga digunakan untuk membantu melembabkan wajah serta banyak dipercaya dapat menurunkan tekanan darah tinggi.</item>
+        <item>Jagung (Zea mays ssp. mays) adalah salah satu tanaman pangan penghasil karbohidrat yang terpenting di dunia, selain gandum dan padi. Bagi penduduk Amerika Tengah dan Selatan, bulir jagung adalah pangan pokok, sebagaimana bagi sebagian penduduk Afrika dan beberapa daerah di Indonesia. Pada masa kini, jagung juga sudah menjadi komponen penting pakan ternak. Penggunaan lainnya adalah sebagai sumber minyak pangan dan bahan dasar tepung maizena. Berbagai produk turunan hasil jagung menjadi bahan baku berbagai produk industri farmasi, kosmetika, dan kimia.</item>
+        <item>Tomat (Solanum lycopersicum syn. Lycopersicum esculentum) adalah tumbuhan dari keluarga Solanaceae, tumbuhan asli Amerika Tengah dan Selatan, dari Meksiko sampai Peru. Tomat merupakan tumbuhan siklus hidup singkat, dapat tumbuh setinggi 1 sampai 3 meter. Tumbuhan ini memiliki buah berawarna hijau, kuning, dan merah yang biasa dipakai sebagai sayur dalam masakan atau dimakan secara langsung tanpa diproses. Tomat memiliki batang dan daun yang tidak dapat dikonsumsi karena masih sekeluarga dengan kentang dan Terung yang mengadung Alkaloid.</item>
+        <item>Wortel adalah tumbuhan biennial (siklus hidup 12 – 24 bulan) yang menyimpan karbohidrat dalam jumlah besar untuk tumbuhan tersebut berbunga pada tahun kedua. Batang bunga tumbuh setinggi sekitar 1 m, dengan bunga berwarna putih, dan rasa yang manis langu. Bagian yang dapat dimakan dari wortel adalah bagian umbi atau akarnya.</item>
+        <item>Kentang (Solanum tuberosum L.) adalah tanaman dari suku Solanaceae yang memiliki umbi batang yang dapat dimakan dan disebut \"kentang\" pula. Umbi kentang sekarang telah menjadi salah satu makanan pokok penting di Eropa walaupun pada awalnya didatangkan dari Amerika Selatan.</item>
+        <item>Bayam (Amaranthus spp.) merupakan tumbuhan yang biasa ditanam untuk dikonsumsi daunnya sebagai sayuran hijau. Tumbuhan ini berasal dari Amerika tropik namun sekarang tersebar ke seluruh dunia. Tumbuhan ini dikenal sebagai sayuran sumber zat besi yang penting bagi tubuh.</item>
+        <item>Peria atau pare adalah tumbuhan merambat yang berasal dari wilayah Asia Tropis, terutama daerah India bagian barat, yaitu Assam dan Burma. Anggota suku labu-labuan atau Cucurbitaceae ini biasa dibudidayakan untuk dimanfaatkan sebagai sayuran maupun bahan pengobatan. Nama Momordica yang melekat pada nama binomialnya berarti \"gigitan\" yang menunjukkan pemerian tepi daunnya yang bergerigi menyerupai bekas gigitan.</item>
+        <item>eledri (Apium graveolens L.) adalah sayuran daun dan tumbuhan obat yang biasa digunakan sebagai bumbu masakan. Beberapa negara termasuk Jepang, Cina dan Korea mempergunakan bagian tangkai daun sebagai bahan makanan. Di Indonesia tumbuhan ini diperkenalkan oleh penjajah Belanda dan digunakan daunnya untuk menyedapkan sup atau sebagai lalap. Penggunaan seledri paling lengkap adalah di Eropa: daun, tangkai daun, buah, dan umbinya semua dimanfaatkan.</item>
+        <item>Selada (Lactuca sativa) adalah tumbuhan sayur yang biasa ditanam di daerah beriklim sedang maupun daerah tropika. Kegunaan utama adalah sebagai salad. Produksi selada dunia diperkirakan sekitar 3 juta ton,yang ditanam pada lebih dari 300.000 ha lahan.</item>
+    </string-array>
+
+    <string-array name="additional">
+        <item>darat_lion</item>
+        <item>darat_wolf</item>
+        <item>darat_fox</item>
+        <item>darat_gorilla</item>
+        <item>darat_raccon</item>
+        <item>darat_elephant</item>
+        <item>darat_horse</item>
+        <item>darat_panda</item>
+        <item>darat_cow</item>
+        <item>darat_llama</item>
+        <item>laut_dolphin</item>
+        <item>laut_orca</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>udara_gagak</item>
+        <item>udara_elang</item>
+        <item>udara_burung_hantu</item>
+        <item>udara_pelican</item>
+        <item>udara_cendrawasih</item>
+        <item>udara_merpati</item>
+        <item>udara_kakaktua</item>
+        <item>udara_beo</item>
+        <item>udara_kolibri</item>
+        <item>udara_cucakrowo</item>
+        <item>Menyehatkan jantung dan tulang, Semangka kaya likopen sebagai antioksidan, Menghindari dehidrasi dan kaya serat, Mengatasi dan mencegah impoten, Mengontrol diabetes, Mengobati gangguan ginjal, Mengatur tekanan darah, Mencegah kanker, Mengurangi risiko kolesterol</item>
+        <item>Obat awet muda, Menghambat pertumbuhan kanker, Perawatan kulit, Meningkatkan kekebalan tubuh, Sifat antioksidan, Mempercepat penyembuhan, Mengobati diare dan disentri, Mengobati masalah menstruasi, Mengontrol diabetes, Berat badan.</item>
+        <item>Meminimalisir gangguan penglihatan, Mencegah kanker, Membunuh sel kanker khususnya di pankreas, Menyembuhkan infeksi, Melegakan pernafasan, Meredakan stres, Menyehatkan kulit, Memperkuat sistem kekebalan tubuh, Meningkatkan Energi, Mencegah osteoporosis, Menjaga jantung dan mencegah kerusakan saraf.</item>
+        <item>Mencegah penyakit stroke, Membantu diet, Menetralisir kadar gula darah, Menurunkan kolesterol, Meningkatkan kesehatan kulit, Mengurangi risiko penyakit jantung, Melancarkan buang air besar, Menurunkan risiko kanker, Mengobati Asma, Mengurangi Risiko Penyakit Batu Empedu.</item>
+        <item>Antikanker, Menyehatkan paru-paru, Bantu turunkan berat badan, Menghancurkan batu ginjal, Mengatur gula darah, Baik untuk jantung.</item>
+        <item>Sumber energi, Mengatasi anemia, Mengatasi penyakit usus dan perut, Manfaat bagi penderita lever, Menyembuhkan luka bakar, Manfaat bagi diabetes, Mempercantik kulit, Mengontrol berat badan, Mengatasi depresi, Memperkuat tulang.</item>
+        <item>Baik untuk kulit, Mencegah sembelit, Membantu mencegah diabetes, Membantu menjaga kesehatan tulang.</item>
+        <item>Menurunkan Kolesterol, Mengatasi Kanker, Banyak Serat, Melindungi Mata, Menurunkan Stres, Dapat Membantu Menurunkan Berat Badan, Detoks Tubuh</item>
+        <item>Menjaga kesehatan mata, Meningkatkan kekebalan tubuh, Mengobati nyeri sendi dan asam urat, Mencegah kanker, Meningkatkan fungsi otak, Mencegah tekanan darah tinggi dan serangan jantung.</item>
+        <item>Menjaga kesehatan jantung, Membantu menurunkan kadar lemak, Meningkatkan daya tahan tubuh, Membuat tulang lebih sehat, Menyehatkan mata, Mencegah terbentuknya sel kanker, Melancarkan pencernaan, Mengobati arthritis, Mengontrol diabetes.</item>
+        <item>Mengontol kadar gula darah, Mengontrol kolesterol, Menjaga kesehatan jantung, Mencegah kanker, Nutrisi untuk otak, Membantu menurunkan berat badan, Menjaga kesehatan kulit.</item>
+        <item>Menjaga kesehatan ginjal, Membantu tubuh tetap terhidrasi, Melindungi tulang, Mencegah sembelit, Menghambat pertumbuhan sel kanker, Menurunkan tekanan darah atau hipertensi, Membantu menurunkan berat badan.</item>
+        <item>Tinggi gula, tapi aman untuk gula darah, Menjaga kesehatan mata, Melindungi dari risiko penyakit jantung, Menurunkan risiko kanker usus.</item>
+        <item>Mencegah Kanker, Melindungi Jantung, Mencegah Diabetes, Bagus untuk kulit, Mengurangi Depresi, Meningkatkan Penglihatan, Memperbaiki Sistem Pencernaan, Melawan Peradangan.</item>
+        <item>Mencegah rabun dan memperbaiki penglihatan, Bikin kulit bercahaya, Mempertajam memori, Menguatkan janin, Memperbaiki daya tahan tubuh setelah sakit, Memperkuat tulang dan gigi, Membuat kualitas sperma semakin bagus, Mencegah penyakit jantung.</item>
+        <item>Membantu kendalikan gula darah, Baik untuk pencernaan, Bebas gluten, Menjaga tekanan darah normal, Menjaga kesehatan sistem saraf dan fungsi otak.</item>
+        <item>Mengurangi radang, Menjaga sistem kekebalan tubuh, Baik bagi penderita diabetes, Mencegahan kanker, Mencegah anemia, Menjaga kesehatan mata, Mencegah asma, Menyehatkan tulang.</item>
+        <item>Mengobati Gangguan Pernafasan, Mengobati Diabetes, Melindungi Kehamilan, Mengurangi Sembelit, Mengobati Jerawat, Menjaga Sistem Kekebalan Tubuh, Menjaga Kesehatan Ginjal dan Kandung Kemih.</item>
+        <item>Menurunkan Berat Badan, Mengatasi Masalah Perut dan Sembelit, Menurunkan Kolesterol dan Mengatur Tekanan Darah, Baik untuk Mata, Membersihkan Gigi, Membantu Mencegah Infeksi Saluran Kemih.</item>
+        <item>Menyehatkan jantung, Menjaga kesehatan kulit, Meningkatkan sistem kekebalan tubuh, Menyehatkan mata, Mencegah pengeroposan tulang, Baik bagi ibu hamil, Mengatasi insomnia, Membuang racun.</item>
+    </string-array>
+
+    <array name="main_photo">
+        <item>@drawable/darat_lion2</item>
+        <item>@drawable/darat_wolf</item>
+        <item>@drawable/darat_fox</item>
+        <item>@drawable/darat_gorilla</item>
+        <item>@drawable/darat_raccoon</item>
+        <item>@drawable/darat_elephant</item>
+        <item>@drawable/darat_horse</item>
+        <item>@drawable/darat_panda</item>
+        <item>@drawable/darat_cow</item>
+        <item>@drawable/darat_llama</item>
+        <item>@drawable/laut_lumba_lumba</item>
+        <item>@drawable/laut_orca</item>
+        <item>@drawable/laut_koi</item>
+        <item>@drawable/laut_lobster</item>
+        <item>@drawable/laut_ikan_badut</item>
+        <item>@drawable/laut_kuda_laut</item>
+        <item>@drawable/laut_belut_listrik</item>
+        <item>@drawable/laut_udang</item>
+        <item>@drawable/laut_ikan_mas</item>
+        <item>@drawable/laut_hiu_martil</item>
+        <item>@drawable/udara_gagak</item>
+        <item>@drawable/udara_elang</item>
+        <item>@drawable/udara_burung_hantu</item>
+        <item>@drawable/udara_pelican</item>
+        <item>@drawable/udara_cendrawasih</item>
+        <item>@drawable/udara_merpati</item>
+        <item>@drawable/udara_kakatua</item>
+        <item>@drawable/udara_beo</item>
+        <item>@drawable/udara_kolibri</item>
+        <item>@drawable/udara_cucak_rowo</item>
+        <item>@drawable/buah_semangka</item>
+        <item>@drawable/buah_manggis</item>
+        <item>@drawable/buah_sirsak</item>
+        <item>@drawable/buah_apel</item>
+        <item>@drawable/buah_jeruk</item>
+        <item>@drawable/buah_pisang</item>
+        <item>@drawable/buah_pir</item>
+        <item>@drawable/buah_alpukat</item>
+        <item>@drawable/buah_stroberi</item>
+        <item>@drawable/buah_nanas</item>
+        <item>@drawable/sayuran_terong</item>
+        <item>@drawable/sayuran_timun</item>
+        <item>@drawable/sayuran_jagung</item>
+        <item>@drawable/sayuran_tomat</item>
+        <item>@drawable/sayuran_wortel</item>
+        <item>@drawable/sayuran_kentang</item>
+        <item>@drawable/sayuran_bayam</item>
+        <item>@drawable/sayuran_pare</item>
+        <item>@drawable/sayuran_seledri</item>
+        <item>@drawable/sayuran_selada</item>
+    </array>
+
+    <string-array name="photo1">
+        <item>https://wallpaperplay.com/walls/full/f/2/8/24516.jpg</item>
+        <item>https://wallpapercave.com/wp/oYtB083.jpg</item>
+        <item>https://wallpapercave.com/wp/wp1867350.jpg</item>
+        <item>https://wallpapercave.com/wp/wp2021514.jpg</item>
+        <item>https://wallpapercave.com/wp/wp3840919.jpg</item>
+        <item>https://wallpapercave.com/wp/wp3463214.jpg</item>
+        <item>https://wallpapercave.com/wp/wp4154621.jpg</item>
+        <item>https://wallpapercave.com/wp/wp3975033.jpg</item>
+        <item>https://img.wallpapersafari.com/desktop/1600/900/70/20/OUge2i.jpg</item>
+        <item>https://wallpapercave.com/wp/wp2261260.jpg</item>
+        <item>https://img.wallpapersafari.com/desktop/1600/900/68/6/TbGw7I.jpg</item>
+        <item>https://wallpapercave.com/wp/wp3498204.jpg</item>
+        <item>https://wallpapercave.com/wp/M7rzd4x.jpg</item>
+        <item>https://wallpapercave.com/wp/wp2303655.jpg</item>
+        <item>https://wallpapercave.com/wp/beO0onF.jpg</item>
+        <item>https://wallpapercave.com/wp/Op27mzB.jpg</item>
+        <item>http://static1.squarespace.com/static/57ed3edb37c58182f815c65f/57ed3f076a49633d10d11e12/5d10f5057615250001061755/1561392866485/shutterstock_769627615.jpg</item>
+        <item>https://wallpapercave.com/wp/wp2209043.jpg</item>
+        <item>https://cdn.pixabay.com/photo/2014/12/10/23/56/goldfish-563638_1280.jpg</item>
+        <item>https://wallpapercave.com/wp/wp2112266.jpg</item>
+        <item>https://wallpapercave.com/wp/wp4932280.jpg</item>
+        <item>https://wallpapercave.com/wp/wp4865240.jpg</item>
+        <item>https://wallpapercave.com/wp/wp4677494.jpg</item>
+        <item>https://wallpapercave.com/wp/wp2073716.jpg</item>
+        <item>http://digitalresult.com/wp-content/uploads/2015/09/greater-birds-of-paradise-hd-wallpapers-43.jpeg</item>
+        <item>https://wallpaperplay.com/walls/full/d/9/6/165695.jpg</item>
+        <item>https://wallpapercave.com/wp/wp2469345.jpg</item>
+        <item>https://wallpapercave.com/wp/7R2W7GW.jpg</item>
+        <item>https://wallpapercave.com/wp/FaFqGye.jpg</item>
+        <item>http://www.zoothailand.org/zoo_office/fileupload/encyclopedia_file/100.jpg</item>
+        <item>https://wallpapercave.com/wp/wp4087409.jpg</item>
+        <item>https://s1.1zoom.me/big0/875/Fruit_Closeup_Mangosteen_Wood_planks_Wicker_basket_557389_1280x851.jpg</item>
+        <item>https://cintaihidup.com/wp-content/uploads/2017/04/24785199720_1a143ea8c9_o-1024x768.jpg</item>
+        <item>https://2.bp.blogspot.com/-mAeb3n0ICo4/V7JSqq6kq0I/AAAAAAAABKI/3yxpKYEoI0ob-ybBkcKSKtPvq3abwMaMwCLcB/s1600/apple-hd-wallpaper.jpg</item>
+        <item>https://jalankisah.files.wordpress.com/2016/09/desktop-orange-fruit-wallpaper-hd-download.jpg</item>
+        <item>https://stikynote.com/wp-content/uploads/2016/08/Tahukah-kamu-manfaat-pisang-untuk-tubuhmu-ini.jpg</item>
+        <item>https://cdn.popmama.com/content-images/post/20180516/buah8-f8863a373b5fb069cc37f3b5b1c676fa.jpg</item>
+        <item>https://www.vondanote.com/wp-content/uploads/2017/10/alpukat.jpg</item>
+        <item>https://rizkydewik.files.wordpress.com/2016/12/strawberry-free-wallpaper-hd.jpg</item>
+        <item>https://static.breakingnews.co.id/7134/conversions/maxres/eits-jangan-sampai-tergoda-ya-saat-lihat-pembuatan-jus-nanas-segar-ini.jpg</item>
+        <item>https://s0.bukalapak.com/img/501925282/w-1000/20_Benih_Bibit_Sayur_Terong_Unggu_Unggulan.jpg</item>
+        <item>https://cdn2.tstatic.net/wow/foto/bank/images/mentimun_20170213_071710.jpg</item>
+        <item>https://www.suarajabarsatu.com/wp-content/uploads/2019/01/jagung.jpg</item>
+        <item>https://2.bp.blogspot.com/-DIBvSdwI0Bw/W4-e4hUm0-I/AAAAAAAAEXU/jfHlt0A6W6wfDtgoIHFvQ99JzgT7GZpLgCK4BGAYYCw/s640/Kabartani.com-tomat-640x458.jpg</item>
+        <item>https://2.bp.blogspot.com/-XQ7JwqdOLBc/WI2TXp-UyQI/AAAAAAAAM-g/MeLTtijom8ct-8pbQcbXVDP75VW_pp0WgCK4B/s1600/Manfaat-Jus-Wortel-Untuk-Kulit-Wajah.jpg</item>
+        <item>https://cdn1-production-images-kly.akamaized.net/A5G4rDZhD2-MkKmv5QF_I8H3Da0=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2733644/original/082057800_1550655999-foto_kentang.jpg</item>
+        <item>http://1.bp.blogspot.com/-gKtcaf0eBPY/VmxITrBRkwI/AAAAAAAACXY/RZFc9Tcg5xw/s1600/55ini-bahaya-konsumsi-sayur-bayam-jika-sudah-lebih-dari-tujuh-jam.jpg</item>
+        <item>https://www.cemilankhasmilenial.com/wp-content/uploads/2019/01/buah-pare-paria-pahit_20151005_143919.jpg</item>
+        <item>https://cdn2.tstatic.net/wow/foto/bank/images/daun-seledri_20180425_131752.jpg</item>
+        <item>https://cdn.akurat.co/images/uploads/images/akurat_20190206065109_0867I6.jpg</item>
+    </string-array>
+
+    <string-array name="photo2">
+        <item>https://wallpaperplay.com/walls/full/a/6/b/24541.jpg</item>
+        <item>https://wallpapercave.com/wp/KMfYNO1.jpg</item>
+        <item>https://wallpapercave.com/wp/wp4695529.jpg</item>
+        <item>https://wallpapercave.com/wp/wp2021537.jpg</item>
+        <item>https://wallpapercave.com/wp/sGyqAqV.jpg</item>
+        <item>https://wallpapercave.com/wp/fzkblib.jpg</item>
+        <item>https://wallpapercave.com/wp/wp4094094.jpg</item>
+        <item>https://wallpapercave.com/wp/wp3975036.jpg</item>
+        <item>https://img.wallpapersafari.com/desktop/1680/1050/86/94/LOqPsx.jpg</item>
+        <item>https://wallpapercave.com/wp/wp2261264.jpg</item>
+        <item>https://img.wallpapersafari.com/desktop/1920/1080/45/58/kCcF7a.jpg</item>
+        <item>https://wallpapercave.com/wp/wp3498203.jpg</item>
+        <item>https://wallpapercave.com/wp/4INpQdZ.jpg</item>
+        <item>https://wallpapercave.com/wp/wp2303667.jpg</item>
+        <item>https://wallpapercave.com/wp/wp4116942.jpg</item>
+        <item>https://wallpapercave.com/wp/loXYebV.jpg</item>
+        <item>https://www.sciencemag.org/sites/default/files/styles/article_main_large/public/images/sn-eelshocks.jpg</item>
+        <item>https://wallpapercave.com/wp/wp2209039.jpg</item>
+        <item>https://cdn.pixabay.com/photo/2012/04/26/21/55/goldfish-43279_1280.jpg</item>
+        <item>https://wallpapercave.com/wp/wp2112265.jpg</item>
+        <item>https://wallpapercave.com/wp/wp4932202.jpg</item>
+        <item>https://wallpapercave.com/wp/wp4865246.jpg</item>
+        <item>https://sheprethwildlifepark.co.uk/wp-content/uploads/2017/12/great-grey-owl.jpg</item>
+        <item>https://wallpapercave.com/wp/wp2073714.jpg</item>
+        <item>http://1.bp.blogspot.com/-p1BocGAgsfM/UZPGsclWltI/AAAAAAAAALA/-IontJeCqjY/s1600/Lesser+Bird+of+Paradise+(Paradisaea+Minor).jpg</item>
+        <item>https://wallpaperplay.com/walls/full/f/c/e/165700.jpg</item>
+        <item>https://wallpapercave.com/wp/wp2469362.jpg</item>
+        <item>https://wallpapercave.com/wp/WBqYmuU.jpg</item>
+        <item>https://wallpapercave.com/wp/JMZ7pHJ.jpg</item>
+        <item>https://www.birdlife.org/sites/default/files/styles/1600/public/straw-headed_bulbul_lee_tiah_khee.jpg</item>
+        <item>https://wallpapercave.com/wp/wp4087361.jpg</item>
+        <item>https://c0.wallpaperflare.com/preview/802/359/577/food-fruits.jpg</item>
+        <item>https://www.harapanrakyat.com/wp-content/uploads/2019/08/Manfaat-Daun-Sirsak-untuk-Diabetes.jpg</item>
+        <item>https://fokusjabar.co.id/wp-content/uploads/2016/08/Apel-Foto-web-1.jpg</item>
+        <item>https://cdn.pixabay.com/photo/2012/11/07/18/00/tangerines-65268_960_720.jpg</item>
+        <item>http://www.dailymoslem.com/wp-content/uploads/2015/11/bananas-Hd-wallpaper11.jpeg</item>
+        <item>https://asset-a.grid.id/crop/0x0:0x0/700x465/photo/novafoto/original/93636_manfaat-buah-pir.jpg</item>
+        <item>https://www.pertanianku.com/wp-content/uploads/2018/07/Alpukat-Terbesar-di-Dunia-Laku-Keras-di-Pasaran.jpg</item>
+        <item>https://ekonomipos.com/wp-content/uploads/2017/02/buah-stroberi.jpg</item>
+        <item>https://img.okezone.com/content/2017/08/16/298/1757244/ada-larangan-bawa-buah-nanas-kalau-band-rock-indie-asal-inggris-glass-animals-bawakan-lagu-pork-soda-apa-alasannya-siJXwYmAbo.jpg</item>
+        <item>https://gelumat.files.wordpress.com/2015/06/budidaya-terong-ungu-dalam-polybag-hasil-panen.jpg</item>
+        <item>https://www.mocoo.id/wp-content/uploads/2019/05/Menghilangkan-Jerawat-Dengan-Timun.jpg</item>
+        <item>https://vibiznews.com/wp-content/uploads/2014/03/Food_Differring_meal_Ripe_corn_032190_-www.zastavki.com_-1.jpg</item>
+        <item>https://i.pinimg.com/originals/e5/eb/82/e5eb8211960e11d9eaee325ca464f67d.jpg</item>
+        <item>https://cdn1-production-assets-kly.akamaized.net/medias/1266237/big/049876700_1466074025-wortel.jpg</item>
+        <item>https://anandastoon.com/wp-content/uploads/2016/12/952203-potato-wallpaper.jpg</item>
+        <item>https://cdns.klimg.com/merdeka.com/i/w/news/2013/01/05/135018/540x270/8-manfaat-mengejutkan-dari-bayam.jpg</item>
+        <item>https://3.bp.blogspot.com/-N1lNMY2V52U/WYhR2IpuK6I/AAAAAAAAAwI/N-TOc5c-BOssLm7dBIu-NrVIhaEeVRH5wCLcBGAs/s640/Pare-HD.png</item>
+        <item>https://i.pinimg.com/originals/16/8d/6a/168d6a523256ec409e09bd953da4d3e4.jpg</item>
+        <item>https://3.bp.blogspot.com/-xIYim3aNv7I/WIC4iy_f6vI/AAAAAAAAAF8/WgllqKQHM1sLP7MPi4YbBwOFcYRJ_bSDACLcB/s1600/7%2BManfaat%2BDaun%2BSelada%2BBagi%2BKesehatan.png</item>
+    </string-array>
+
+    <string-array name="photo3">
+        <item>https://wallpaperplay.com/walls/full/2/2/7/24553.jpg</item>
+        <item>https://wallpapercave.com/wp/1PCOahX.jpg</item>
+        <item>https://wallpapercave.com/wp/wp1867355.jpg</item>
+        <item>https://wallpapercave.com/wp/wp2021511.jpg</item>
+        <item>https://wallpapercave.com/wp/wjnumGB.jpg</item>
+        <item>https://wallpapercave.com/wp/wp3463220.jpg</item>
+        <item>https://wallpapercave.com/wp/wp4154651.jpg</item>
+        <item>https://wallpapercave.com/wp/wp4653263.jpg</item>
+        <item>https://cdn.wallpapersafari.com/91/54/FlMTaC.jpg</item>
+        <item>https://wallpapercave.com/wp/wp2261273.jpg</item>
+        <item>https://wallpaperstream.com/wallpapers/full/dolphin/Dolphin-Close-Up.jpg</item>
+        <item>https://wallpapercave.com/wp/wp3498208.jpg</item>
+        <item>https://wallpapercave.com/wp/YOCnXET.jpg</item>
+        <item>https://wallpapercave.com/wp/wp2303663.jpg</item>
+        <item>https://wallpapercave.com/wp/O43Rxo7.jpg</item>
+        <item>https://wallpapercave.com/wp/Wg02m3u.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Electric-eel2.jpg/1280px-Electric-eel2.jpg</item>
+        <item>https://wallpapercave.com/wp/wp2209036.jpg</item>
+        <item>https://www.pertanianku.com/wp-content/uploads/2018/06/Mengenal-Penyakit-Ikan-Mas-Beserta-Penanganannya.jpg</item>
+        <item>https://wallpapercave.com/wp/wp2112262.jpg</item>
+        <item>https://wallpapercave.com/wp/wp4932168.jpg</item>
+        <item>https://wallpapercave.com/wp/wp2891132.jpg</item>
+        <item>https://i2.wp.com/frametoframe.ca/wp-content/uploads/2013/02/Great-Grey-Owl-looks-towards-me-Ottawa-Ontario-Canada-Frame-To-Frame-Bob-Jean-picture.jpg</item>
+        <item>https://wallpapercave.com/wp/wp2073698.jpg</item>
+        <item>https://www.indonesia.travel/content/dam/indtravelrevamp/en/destinations/point-of-interest/cendrawasih-the-bird-of-paradise/cendrawasih%202.jpg</item>
+        <item>https://wallpaperplay.com/walls/full/b/d/2/165708.jpg</item>
+        <item>https://wallpapercave.com/wp/wp2469361.jpg</item>
+        <item>https://wallpapercave.com/wp/WhOwSGJ.jpg</item>
+        <item>https://wallpapercave.com/wp/v40s2XO.jpg</item>
+        <item>https://www.edgeofexistence.org/wp-content/uploads/2019/05/Pycnonotus-zeylanicus-_Bronze-Cheung-Kwok-Yee.jpg</item>
+        <item>https://wallpapercave.com/wp/wp3400745.jpg</item>
+        <item>https://www.ecestaticos.com/imagestatic/clipping/b62/084/b62084d6ae97bcb89d509b4265582e57/los-beneficios-del-mangostan-la-superfruta-que-cuesta-26-el-kilo.jpg</item>
+        <item>https://fajar.co.id/wp-content/uploads/2019/05/daun-sirsak.jpg</item>
+        <item>https://lugualami.net/wp-content/uploads/2017/01/Buah-Apel-Merah.jpg</item>
+        <item>https://steemitimages.com/DQmTR4nzUr3LDg8ATqQxWk2ms5FihCQRysahWxogoThSiEK/orange.jpg</item>
+        <item>http://beautypreunership.com/wp-content/uploads/2016/02/pisang.jpg</item>
+        <item>https://cdn2.tstatic.net/palembang/foto/bank/images/buah-pir_20151210_151346.jpg</item>
+        <item>http://4.bp.blogspot.com/-s_sJEn7wDS0/U5Q1RTpaKvI/AAAAAAAAALo/gWihAU7iLK0/s1600/Screenshot_9.png</item>
+        <item>http://www.4usky.com/data/out/88/164798567-strawberry-wallpapers.jpg</item>
+        <item>http://totalbuah.id/wp-content/uploads/2018/04/pineapple-1.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/a/a6/Aubergines.jpg</item>
+        <item>https://cdn.idntimes.com/content-images/post/20180126/1-cf524cb34ae57a7cb96bc71a15576094.jpg</item>
+        <item>https://3.bp.blogspot.com/-EKvE0LpFFDM/WX3H8vzKREI/AAAAAAAAAoI/-mi-xSEeXTQR94n0fiASSJbe0wIbKNm7ACLcBGAs/s640/jagung%2Bberkualitas%2Bhd.jpg</item>
+        <item>https://www.rumahzakat.org/wp-content/uploads/2016/06/tomat.jpg</item>
+        <item>https://alamtani.com/wp-content/uploads/2015/03/manfaat-wortel.jpg</item>
+        <item>https://cdn2.tstatic.net/jakarta/foto/bank/images/kentang_20180408_115947.jpg</item>
+        <item>https://1.bp.blogspot.com/-YHGbzm5dtac/WYL1OUP_geI/AAAAAAAAAr4/wBJCoDFRw6s1iSqxu0X5wtSWv71m2BVvwCLcBGAs/s1600/Bayam%2BHD.JPG</item>
+        <item>http://cookingwsheila.com/wp-content/uploads/2016/06/13096245_600355100113825_8848123229675090218_n.jpg</item>
+        <item>https://asset-a.grid.id/crop/0x0:0x0/700x465/photo/2018/05/19/2521945164.jpg</item>
+        <item>https://www.purdue.edu/hla/sites/yardandgarden/wp-content/uploads/sites/2/2013/02/greenlettuce.jpg</item>
+    </string-array>
+
+    <string-array name="photo4">
+        <item>https://www.wallpapers13.com/wp-content/uploads/2016/05/Adult-and-young-lion-father-and-son-HD-Wallpaper-for-laptop-915x515.jpg</item>
+        <item>https://wallpapercave.com/wp/iJlhPZ6.jpg</item>
+        <item>https://wallpapercave.com/wp/wp4695546.jpg</item>
+        <item>https://wallpapercave.com/wp/wp2021541.jpg</item>
+        <item>https://wallpapercave.com/wp/RuPfUKh.jpg</item>
+        <item>https://wallpapercave.com/wp/wp3463221.jpg</item>
+        <item>https://wallpapercave.com/wp/wp4347683.jpg</item>
+        <item>https://wallpapercave.com/wp/wp3975040.jpg</item>
+        <item>https://foodispower.org/wp-content/uploads/2019/02/1200x475-cows-raised-for-meat.jpg</item>
+        <item>https://wallpapercave.com/wp/wp2261280.jpg</item>
+        <item>https://i.pinimg.com/originals/6d/45/1f/6d451fca8159434c8bf9424a2a6b560a.jpg</item>
+        <item>https://wallpapercave.com/wp/wp3498213.jpg</item>
+        <item>https://wallpapercave.com/wp/X2V47HO.jpg</item>
+        <item>https://wallpapercave.com/wp/wp2303661.jpg</item>
+        <item>https://wallpapercave.com/wp/wp4116945.jpg</item>
+        <item>https://wallpapercave.com/wp/d2xvi4b.jpg</item>
+        <item>https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F769627612%2F960x0.jpg</item>
+        <item>https://wallpapercave.com/wp/wp2209034.jpg</item>
+        <item>http://duniaair.com/wp-content/uploads/2017/05/common-goldfish.jpg</item>
+        <item>https://wallpapercave.com/wp/wp2112261.jpg</item>
+        <item>https://wallpapercave.com/wp/wp2069559.jpg</item>
+        <item>https://wallpapercave.com/wp/wp4865289.jpg</item>
+        <item>https://wallpapercave.com/wp/wp4677542.jpg</item>
+        <item>https://wallpapercave.com/wp/wp2073696.jpg</item>
+        <item>http://balithutmanokwari.or.id/wp-content/uploads/2015/08/cropped-cendrawasih.png</item>
+        <item>https://wallpaperplay.com/walls/full/b/d/3/165712.jpg</item>
+        <item>https://wallpapercave.com/wp/wp2469347.jpg</item>
+        <item>https://wallpapercave.com/wp/ArkV5zT.jpg</item>
+        <item>https://wallpapercave.com/wp/W68cLFS.jpg</item>
+        <item>https://farm2.staticflickr.com/1904/45503029312_e10138040a_b.jpg</item>
+        <item>https://wallpapercave.com/wp/wp3273987.jpg</item>
+        <item>https://ak5.picdn.net/shutterstock/videos/28822645/thumb/1.jpg</item>
+        <item>https://kissparry.files.wordpress.com/2018/01/sirsak-halebiz.jpg</item>
+        <item>https://c1.staticflickr.com/2/1847/30461695808_0fc101e14b_b.jpg</item>
+        <item>https://iradiofm.com/wp-content/uploads/2012/08/images_2012_news_serba-serbi_kesehatan_jeruk.jpg</item>
+        <item>https://4.bp.blogspot.com/-2Rvs-YIgZpM/V7OeutXJHZI/AAAAAAAABMc/shjg8fEMW2sldnc2MNqTTOZ0FkG8Y3BvQCLcB/s1600/gambar-buah-pisang-segar.jpg</item>
+        <item>https://cianews.co.id/wp-content/uploads/2018/12/manfaat-buah-pir-dapat-menurunkan-berat-badan-hd-1.jpg</item>
+        <item>https://2.bp.blogspot.com/-Ooku4jtncWE/V60LavSmmtI/AAAAAAAABHI/4nF2sH_n2BcGo3HJPPcSu5rR-I6PE1CwQCLcB/s1600/fresh-avocado-fruit-wallpapers%2B_www.buahaz.com_.jpg</item>
+        <item>https://blog.regopantes.com/wp-content/uploads/2019/03/manfaat-strawberry-eltiempo-pe.jpg</item>
+        <item>http://3.bp.blogspot.com/-RKBjkgGu8mE/VpRR-iGuztI/AAAAAAAAAE0/I0KZkWcZ05g/s1600/efek-buruk-nanas-bagi-ibu-hamil-oleh-hamil-segiempat.jpg</item>
+        <item>https://asset-a.grid.id/crop/0x0:0x0/700x465/photo/intisarifoto/original/36533_terong.jpg</item>
+        <item>https://s1.1zoom.me/big0/1/Cucumbers_Knife_492718.jpg</item>
+        <item>http://www.agrowindo.com/wp-content/uploads/2017/05/Peluang-Usaha-Budidaya-Jagung-Hibrida-Dan-Analisa-Usahanya.jpg</item>
+        <item>https://3.bp.blogspot.com/-mf5UlzboebA/Wqi8Yw_JBqI/AAAAAAAAAeM/5ge4mgPWtE4QxgN9jRolgCIT1jF1rUDAACLcBGAs/s1600/1_utOmkc67LDksWHdUZhrMrw.jpeg</item>
+        <item>https://img.okezone.com/content/2017/06/07/481/1709525/wow-selain-sehatkan-mata-wortel-juga-mengobati-penyakit-kulit-G1gb3fDmy1.jpg</item>
+        <item>https://cdn.pixabay.com/photo/2014/08/07/19/03/potatoes-412639_960_720.jpg</item>
+        <item>https://www.serumpi.com/wp-content/uploads/2018/04/5-Khasiat-Sayur-Bayam-Bagi-Kesehatan-Tubuh.jpg</item>
+        <item>http://strategidanbisnis.com/uploads/artikel/c2af4d94a4c0fce017c2bdec2008ba70.jpg</item>
+        <item>https://bibitonline.com/wp-content/uploads/SELEDRI.png</item>
+        <item>https://www.10tv.com/sites/default/files/styles/article_image/public/images/2018/01/04/romainelettuce.jpg</item>
+    </string-array>
+</resources>

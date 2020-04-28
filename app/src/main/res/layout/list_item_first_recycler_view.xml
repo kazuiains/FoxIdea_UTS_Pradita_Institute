@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_first_item">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_image_background"
+        android:layout_marginStart="@dimen/margin_R_L_image_background"
+        android:layout_marginTop="@dimen/margin_top_image_background"
+        android:layout_marginEnd="@dimen/margin_R_L_image_background"
+        app:cardCornerRadius="@dimen/radius_background"
+        app:cardElevation="@dimen/elevation_1">
+
+        <ImageView
+            android:id="@+id/background_list_first"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/img_descript_background"
+            android:scaleType="fitXY" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_container"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/margin_R_L_container"
+        android:layout_marginEnd="@dimen/margin_R_L_container"
+        android:layout_marginBottom="@dimen/margin_bottom_container"
+        app:cardCornerRadius="@dimen/radius_background"
+        app:cardElevation="@dimen/elevation_2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/v_21"
+            android:layout_marginTop="@dimen/v_21"
+            android:layout_marginEnd="@dimen/v_21">
+
+            <com.github.florent37.shapeofview.shapes.RoundRectView
+                android:id="@+id/cover_profile_list_first"
+                android:layout_width="@dimen/v_36"
+                android:layout_height="@dimen/v_36"
+                android:layout_marginEnd="@dimen/v_11"
+                app:shape_roundRect_bottomLeftRadius="@dimen/v_12"
+                app:shape_roundRect_bottomRightRadius="@dimen/v_12"
+                app:shape_roundRect_topLeftRadius="@dimen/v_12"
+                app:shape_roundRect_topRightRadius="@dimen/v_12">
+
+                <ImageView
+                    android:id="@+id/profile_list_first"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/img_descript_profile"
+                    android:scaleType="fitXY" />
+            </com.github.florent37.shapeofview.shapes.RoundRectView>
+
+            <TextView
+                android:id="@+id/name_list_first"
+                style="@style/BaseTextItemRecyclerView.max1.name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/cover_profile_list_first" />
+
+            <TextView
+                android:id="@+id/sub_name_list_first"
+                style="@style/BaseTextItemRecyclerView.max1.subName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/cover_profile_list_first"
+                android:layout_toEndOf="@+id/cover_profile_list_first" />
+
+            <TextView
+                android:id="@+id/deskrip_list_first"
+                style="@style/BaseTextItemRecyclerView.max3.deskrip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cover_profile_list_first"
+                android:paddingStart="@dimen/v_3"
+                android:paddingTop="@dimen/v_15"
+                android:paddingEnd="@dimen/v_3" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

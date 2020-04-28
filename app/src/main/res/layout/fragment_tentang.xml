@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.github.florent37.shapeofview.shapes.RoundRectView
+                android:id="@+id/background"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="@dimen/v_10"
+                android:layout_marginTop="@dimen/v_24"
+                android:layout_marginEnd="@dimen/v_10"
+                app:shape_roundRect_topLeftRadius="@dimen/v_12"
+                app:shape_roundRect_topRightRadius="@dimen/v_12">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/img_descript_background"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/solo_leveling" />
+            </com.github.florent37.shapeofview.shapes.RoundRectView>
+
+            <com.github.florent37.shapeofview.shapes.RoundRectView
+                android:id="@+id/profil"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_below="@+id/background"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-64dp"
+                android:background="@color/colorPrimary"
+                app:shape_roundRect_borderColor="@color/colorPrimary"
+                app:shape_roundRect_borderWidth="5dp"
+                app:shape_roundRect_bottomLeftRadius="@dimen/v_12"
+                app:shape_roundRect_bottomRightRadius="@dimen/v_12"
+                app:shape_roundRect_topLeftRadius="@dimen/v_12"
+                app:shape_roundRect_topRightRadius="@dimen/v_12">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/img_descript_background"
+                    android:padding="@dimen/v_5"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/profil" />
+            </com.github.florent37.shapeofview.shapes.RoundRectView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profil"
+                android:orientation="vertical"
+                android:paddingStart="@dimen/v_10"
+                android:paddingTop="@dimen/v_10"
+                android:paddingEnd="@dimen/v_10"
+                android:paddingBottom="@dimen/v_5">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/may"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ttgl"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorGray"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/v_12"
+                android:layout_marginBottom="@dimen/v_12"
+                android:backgroundTint="@color/colorGrayToDarkBlue2"
+                app:cardCornerRadius="@dimen/v_12"
+                app:cardElevation="@dimen/v_0">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/v_24">
+
+                    <com.github.florent37.shapeofview.shapes.RoundRectView
+                        android:id="@+id/data1"
+                        android:layout_width="@dimen/v_36"
+                        android:layout_height="@dimen/v_36"
+                        android:layout_marginEnd="@dimen/v_11"
+                        app:shape_roundRect_bottomLeftRadius="@dimen/v_12"
+                        app:shape_roundRect_bottomRightRadius="@dimen/v_12"
+                        app:shape_roundRect_topLeftRadius="@dimen/v_12"
+                        app:shape_roundRect_topRightRadius="@dimen/v_12">
+
+                        <ImageView
+                            android:id="@+id/image_data1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/img_descript_profile"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/profil" />
+                    </com.github.florent37.shapeofview.shapes.RoundRectView>
+
+                    <TextView
+                        android:id="@+id/name_data1"
+                        style="@style/BaseTextItemRecyclerView.max1.name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@+id/data1"
+                        android:text="@string/may"
+                        android:textColor="@color/colorWhite" />
+
+                    <TextView
+                        android:id="@+id/title_data1"
+                        style="@style/BaseTextItemRecyclerView.max1.subName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/data1"
+                        android:layout_toEndOf="@+id/data1"
+                        android:text="@string/data_diri"
+                        android:textColor="@color/colorGray3" />
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/data1"
+                        android:paddingStart="@dimen/v_3"
+                        android:paddingTop="@dimen/v_15"
+                        android:paddingEnd="@dimen/v_3"
+                        android:textColor="@color/colorGray4">
+
+                        <TableRow>
+
+                            <TextView
+                                style="@style/table_view.head.top"
+                                android:text="@string/nama_hewan" />
+
+                            <TextView
+                                style="@style/table_view.top"
+                                android:text="@string/may" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                style="@style/table_view.head.center"
+                                android:text="@string/nim" />
+
+                            <TextView
+                                style="@style/table_view.center"
+                                android:text="@string/value_nim" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                style="@style/table_view.head.center"
+                                android:text="@string/prodi" />
+
+                            <TextView
+                                style="@style/table_view.center"
+                                android:text="@string/value_prodi" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                style="@style/table_view.head.center"
+                                android:text="@string/angkatan" />
+
+                            <TextView
+                                style="@style/table_view.center"
+                                android:text="@string/value_angkatan" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                style="@style/table_view.head.center"
+                                android:text="@string/line" />
+
+                            <TextView
+                                style="@style/table_view.center"
+                                android:text="@string/value_line" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                style="@style/table_view.head.bottom"
+                                android:text="@string/no" />
+
+                            <TextView
+                                style="@style/table_view.bottom"
+                                android:text="@string/value_no" />
+                        </TableRow>
+                    </TableLayout>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/v_12"
+                android:layout_marginBottom="@dimen/v_12"
+                android:backgroundTint="@color/colorGrayToDarkBlue2"
+                app:cardCornerRadius="@dimen/v_12"
+                app:cardElevation="@dimen/v_0">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/v_24">
+
+                    <com.github.florent37.shapeofview.shapes.RoundRectView
+                        android:id="@+id/data2"
+                        android:layout_width="@dimen/v_36"
+                        android:layout_height="@dimen/v_36"
+                        android:layout_marginEnd="@dimen/v_11"
+                        app:shape_roundRect_bottomLeftRadius="@dimen/v_12"
+                        app:shape_roundRect_bottomRightRadius="@dimen/v_12"
+                        app:shape_roundRect_topLeftRadius="@dimen/v_12"
+                        app:shape_roundRect_topRightRadius="@dimen/v_12">
+
+                        <ImageView
+                            android:id="@+id/image_data2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:contentDescription="@string/img_descript_profile"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/profil" />
+                    </com.github.florent37.shapeofview.shapes.RoundRectView>
+
+                    <TextView
+                        android:id="@+id/name_data2"
+                        style="@style/BaseTextItemRecyclerView.max1.name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@+id/data2"
+                        android:text="@string/may"
+                        android:textColor="@color/colorWhite" />
+
+                    <TextView
+                        android:id="@+id/title_data2"
+                        style="@style/BaseTextItemRecyclerView.max1.subName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/data2"
+                        android:layout_toEndOf="@+id/data2"
+                        android:text="@string/pengenalan"
+                        android:textColor="@color/colorGray3" />
+
+                    <TextView
+                        android:id="@+id/isi_info1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/data2"
+                        android:paddingStart="@dimen/v_3"
+                        android:paddingTop="@dimen/v_15"
+                        android:paddingEnd="@dimen/v_3"
+                        android:text="@string/isi"
+                        android:textColor="@color/colorGray4"
+                        android:textSize="@dimen/vt_14" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

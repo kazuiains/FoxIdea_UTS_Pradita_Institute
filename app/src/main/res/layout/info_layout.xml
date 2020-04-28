@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_info_page"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/v_12"
+        android:layout_marginBottom="@dimen/v_12"
+        android:backgroundTint="@color/colorGrayToDarkBlue2"
+        app:cardCornerRadius="@dimen/v_12"
+        app:cardElevation="@dimen/v_0">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/v_24">
+
+            <com.github.florent37.shapeofview.shapes.RoundRectView
+                android:id="@+id/info_profil1"
+                android:layout_width="@dimen/v_36"
+                android:layout_height="@dimen/v_36"
+                android:layout_marginEnd="@dimen/v_11"
+                app:shape_roundRect_bottomLeftRadius="@dimen/v_12"
+                app:shape_roundRect_bottomRightRadius="@dimen/v_12"
+                app:shape_roundRect_topLeftRadius="@dimen/v_12"
+                app:shape_roundRect_topRightRadius="@dimen/v_12">
+
+                <ImageView
+                    android:id="@+id/image_info_profil1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/img_descript_profile"
+                    android:scaleType="fitXY" />
+            </com.github.florent37.shapeofview.shapes.RoundRectView>
+
+            <TextView
+                android:id="@+id/name_info_profil1"
+                style="@style/BaseTextItemRecyclerView.max1.name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/info_profil1"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/title_info_profil1"
+                style="@style/BaseTextItemRecyclerView.max1.subName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/info_profil1"
+                android:layout_toEndOf="@+id/info_profil1"
+                android:text="@string/deksrip_detail"
+                android:textColor="@color/colorGray3" />
+
+            <TextView
+                android:id="@+id/isi_info1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/info_profil1"
+                android:paddingStart="@dimen/v_3"
+                android:paddingTop="@dimen/v_15"
+                android:paddingEnd="@dimen/v_3"
+                android:textColor="@color/colorGray4"
+                android:textSize="@dimen/vt_14" />
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/v_12"
+        android:layout_marginBottom="@dimen/margin_bottom_pengelompokan"
+        android:backgroundTint="@color/colorGrayToDarkBlue2"
+        app:cardCornerRadius="@dimen/v_12"
+        app:cardElevation="@dimen/v_0">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/v_24">
+
+            <com.github.florent37.shapeofview.shapes.RoundRectView
+                android:id="@+id/info_profil2"
+                android:layout_width="@dimen/v_36"
+                android:layout_height="@dimen/v_36"
+                android:layout_marginEnd="@dimen/v_11"
+                app:shape_roundRect_bottomLeftRadius="@dimen/v_12"
+                app:shape_roundRect_bottomRightRadius="@dimen/v_12"
+                app:shape_roundRect_topLeftRadius="@dimen/v_12"
+                app:shape_roundRect_topRightRadius="@dimen/v_12">
+
+                <ImageView
+                    android:id="@+id/image_info_profil2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/img_descript_profile"
+                    android:scaleType="fitXY" />
+            </com.github.florent37.shapeofview.shapes.RoundRectView>
+
+            <TextView
+                android:id="@+id/name_info_profil2"
+                style="@style/BaseTextItemRecyclerView.max1.name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/info_profil2"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/title_info_profil2"
+                style="@style/BaseTextItemRecyclerView.max1.subName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/info_profil2"
+                android:layout_toEndOf="@+id/info_profil2"
+                android:text="@string/pengelompokan_detail"
+                android:textColor="@color/colorGray3" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/info_profil2"
+                android:paddingStart="@dimen/v_3"
+                android:paddingTop="@dimen/v_15"
+                android:paddingEnd="@dimen/v_3"
+                android:textColor="@color/colorGray4">
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/table_view.head.top"
+                        android:text="@string/nama_hewan" />
+
+                    <TextView
+                        android:id="@+id/txt_nama"
+                        style="@style/table_view.top" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/table_view.head.center"
+                        android:text="@string/nama_ilmiah_hewan" />
+
+                    <TextView
+                        android:id="@+id/txt_ilmiah"
+                        style="@style/table_view.center" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/table_view.head.center"
+                        android:text="@string/kingdom_hewan" />
+
+                    <TextView
+                        android:id="@+id/txt_kingdom"
+                        style="@style/table_view.center" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/table_view.head.center"
+                        android:text="@string/kelas_hewan" />
+
+                    <TextView
+                        android:id="@+id/txt_kelas"
+                        style="@style/table_view.center" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/table_view.head.center"
+                        android:text="@string/ordo_hewan" />
+
+                    <TextView
+                        android:id="@+id/txt_ordo"
+                        style="@style/table_view.center" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/table_view.head.bottom"
+                        android:text="@string/famili_hewan" />
+
+                    <TextView
+                        android:id="@+id/txt_famili"
+                        style="@style/table_view.bottom" />
+                </TableRow>
+            </TableLayout>
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

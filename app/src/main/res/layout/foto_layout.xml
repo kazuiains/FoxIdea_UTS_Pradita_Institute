@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_foto_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="gone">
+
+    <com.github.florent37.shapeofview.shapes.RoundRectView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/v_5"
+        android:layout_marginTop="@dimen/v_12"
+        android:layout_marginBottom="@dimen/v_12"
+        app:shape_roundRect_borderColor="@color/colorGrayToDarkBlue2"
+        app:shape_roundRect_borderWidth="@dimen/v_5"
+        app:shape_roundRect_bottomLeftRadius="@dimen/v_12"
+        app:shape_roundRect_bottomRightRadius="@dimen/v_12"
+        app:shape_roundRect_topLeftRadius="@dimen/v_12"
+        app:shape_roundRect_topRightRadius="@dimen/v_12">
+
+        <ImageView
+            android:id="@+id/image1_page_foto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/img_descript_profile"
+            android:scaleType="fitXY" />
+    </com.github.florent37.shapeofview.shapes.RoundRectView>
+
+    <com.github.florent37.shapeofview.shapes.RoundRectView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/v_5"
+        android:layout_marginTop="@dimen/v_12"
+        android:layout_marginBottom="@dimen/v_12"
+        app:shape_roundRect_borderColor="@color/colorGrayToDarkBlue2"
+        app:shape_roundRect_borderWidth="@dimen/v_5"
+        app:shape_roundRect_bottomLeftRadius="@dimen/v_12"
+        app:shape_roundRect_bottomRightRadius="@dimen/v_12"
+        app:shape_roundRect_topLeftRadius="@dimen/v_12"
+        app:shape_roundRect_topRightRadius="@dimen/v_12">
+
+        <ImageView
+            android:id="@+id/image2_page_foto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/img_descript_profile"
+            android:scaleType="fitXY" />
+    </com.github.florent37.shapeofview.shapes.RoundRectView>
+
+    <com.github.florent37.shapeofview.shapes.RoundRectView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/v_5"
+        android:layout_marginTop="@dimen/v_12"
+        android:layout_marginBottom="@dimen/v_12"
+        app:shape_roundRect_borderColor="@color/colorGrayToDarkBlue2"
+        app:shape_roundRect_borderWidth="@dimen/v_5"
+        app:shape_roundRect_bottomLeftRadius="@dimen/v_12"
+        app:shape_roundRect_bottomRightRadius="@dimen/v_12"
+        app:shape_roundRect_topLeftRadius="@dimen/v_12"
+        app:shape_roundRect_topRightRadius="@dimen/v_12">
+
+        <ImageView
+            android:id="@+id/image3_page_foto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/img_descript_profile"
+            android:scaleType="fitXY" />
+    </com.github.florent37.shapeofview.shapes.RoundRectView>
+
+    <com.github.florent37.shapeofview.shapes.RoundRectView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/v_5"
+        android:layout_marginTop="@dimen/v_12"
+        android:layout_marginBottom="@dimen/margin_bottom_pengelompokan"
+        app:shape_roundRect_borderColor="@color/colorGrayToDarkBlue2"
+        app:shape_roundRect_borderWidth="@dimen/v_5"
+        app:shape_roundRect_bottomLeftRadius="@dimen/v_12"
+        app:shape_roundRect_bottomRightRadius="@dimen/v_12"
+        app:shape_roundRect_topLeftRadius="@dimen/v_12"
+        app:shape_roundRect_topRightRadius="@dimen/v_12">
+
+        <ImageView
+            android:id="@+id/image4_page_foto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/img_descript_profile"
+            android:scaleType="fitXY" />
+    </com.github.florent37.shapeofview.shapes.RoundRectView>
+</LinearLayout>

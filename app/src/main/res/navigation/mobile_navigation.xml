@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_darat">
+
+    <fragment
+        android:id="@+id/nav_darat"
+        android:name="com.adiyusuf.foxidea.ui.mainPage.fragment.DaratFragment"
+        tools:layout="@layout/fragment_recycler_view"/>
+
+    <fragment
+        android:id="@+id/nav_laut"
+        android:name="com.adiyusuf.foxidea.ui.mainPage.fragment.LautFragment"
+        tools:layout="@layout/fragment_recycler_view"/>
+
+    <fragment
+        android:id="@+id/nav_udara"
+        android:name="com.adiyusuf.foxidea.ui.mainPage.fragment.UdaraFragment"
+        tools:layout="@layout/fragment_recycler_view"/>
+
+    <fragment
+        android:id="@+id/nav_buah"
+        android:name="com.adiyusuf.foxidea.ui.mainPage.fragment.BuahFragment"
+        tools:layout="@layout/fragment_recycler_view"/>
+
+    <fragment
+        android:id="@+id/nav_sayuran"
+        android:name="com.adiyusuf.foxidea.ui.mainPage.fragment.SayurFragment"
+        tools:layout="@layout/fragment_recycler_view"/>
+
+    <fragment
+        android:id="@+id/nav_tentang"
+        android:name="com.adiyusuf.foxidea.ui.mainPage.fragment.TentangFragment"
+        tools:layout="@layout/fragment_tentang"/>
+</navigation>

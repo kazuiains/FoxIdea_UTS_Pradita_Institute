@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_container_O_E">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/square_image_O_E"
+        android:layout_height="@dimen/square_image_O_E"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/v_24"
+        android:layout_alignParentEnd="true"
+        app:cardCornerRadius="@dimen/v_12"
+        app:cardElevation="@dimen/elevation_2">
+
+        <ImageView
+            android:id="@+id/profile_list_odd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/img_descript_profile"
+            android:scaleType="fitXY" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="@dimen/v_56"
+        android:layout_marginTop="@dimen/v_12"
+        android:layout_marginStart="@dimen/v_24"
+        android:layout_marginBottom="@dimen/v_12"
+        app:cardCornerRadius="@dimen/v_12"
+        app:cardElevation="@dimen/elevation_1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/v_104"
+            android:layout_marginTop="@dimen/v_23"
+            android:layout_marginStart="@dimen/v_24">
+
+            <TextView
+                android:id="@+id/sub_name_list_odd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                style="@style/BaseTextItemRecyclerView.max1.subName"/>
+
+            <TextView
+                android:id="@+id/name_list_odd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sub_name_list_odd"
+                android:layout_alignParentStart="true"
+                style="@style/BaseTextItemRecyclerView.max1.name"/>
+
+            <TextView
+                android:id="@+id/deskrip_list_odd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name_list_odd"
+                android:paddingTop="@dimen/v_11"
+                style="@style/BaseTextItemRecyclerView.max3.deskrip"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

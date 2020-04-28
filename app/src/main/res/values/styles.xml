@@ -1,0 +1,102 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/gibson_regular</item>
+        <item name="android:colorBackground">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- Activity Main | Navigation Drawer-->
+    <style name="NavigationDrawerStyle">
+        <item name="android:fontFamily">@font/gibson_regular</item>
+        <item name="android:textSize">@dimen/text_size_item_navigation_drawer</item>
+    </style>
+
+    <!-- Activity Main | Navigation Drawer Header (Nav Header Main) -->
+    <style name="TextHeaderDrawer">
+        <item name="android:fontFamily">@font/new_zelek</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/logo_name_size</item>
+    </style>
+
+    <!-- Item Recycler View -->
+    <style name="BaseTextItemRecyclerView">
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="BaseTextItemRecyclerView.max1">
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="BaseTextItemRecyclerView.max3">
+        <item name="android:maxLines">3</item>
+    </style>
+
+    <style name="BaseTextItemRecyclerView.max1.name">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorDarkBlue1</item>
+        <item name="android:textSize">@dimen/vt_16</item>
+    </style>
+
+    <style name="BaseTextItemRecyclerView.max1.subName">
+        <item name="android:textColor">@color/colorGray</item>
+        <item name="android:textSize">@dimen/vt_12</item>
+    </style>
+
+    <style name="BaseTextItemRecyclerView.max3.deskrip">
+        <item name="android:textColor">@color/colorDarkBlue2</item>
+        <item name="android:textSize">@dimen/vt_14</item>
+    </style>
+
+    <style name="table_view">
+        <item name="android:textColor">@color/colorGray4</item>
+    </style>
+
+    <style name="table_view.center" parent="table_view">
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+    </style>
+
+    <style name="table_view.top" parent="table_view">
+        <item name="android:paddingBottom">2dp</item>
+    </style>
+
+    <style name="table_view.bottom" parent="table_view">
+        <item name="android:paddingTop">2dp</item>
+    </style>
+
+    <style name="table_view.head.top" parent="table_view.top">
+        <item name="android:paddingEnd">@dimen/v_11</item>
+        <item name="android:paddingStart">@dimen/v_0</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="table_view.head.center" parent="table_view.center">
+        <item name="android:paddingEnd">@dimen/v_11</item>
+        <item name="android:paddingStart">@dimen/v_0</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="table_view.head.bottom" parent="table_view.bottom">
+        <item name="android:paddingEnd">@dimen/v_11</item>
+        <item name="android:paddingStart">@dimen/v_0</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/padding_R_L_head_drawer"
+    android:paddingTop="@dimen/padding_top_head_drawer"
+    android:paddingRight="@dimen/padding_R_L_head_drawer"
+    android:paddingBottom="@dimen/padding_bottom_head_drawer">
+
+    <com.github.florent37.shapeofview.shapes.RoundRectView
+        android:id="@+id/logo"
+        android:layout_width="@dimen/square_logo_head_drawer"
+        android:layout_height="@dimen/square_logo_head_drawer"
+        android:layout_marginEnd="@dimen/logo_margin_right"
+        app:shape_roundRect_bottomLeftRadius="@dimen/radius_image_header_drawer"
+        app:shape_roundRect_bottomRightRadius="@dimen/radius_image_header_drawer"
+        app:shape_roundRect_topLeftRadius="@dimen/radius_image_header_drawer"
+        app:shape_roundRect_topRightRadius="@dimen/radius_image_header_drawer">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"
+            android:contentDescription="@string/img_descript_profile"
+            android:padding="@dimen/logo_padding_for_background"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logodrawer" />
+    </com.github.florent37.shapeofview.shapes.RoundRectView>
+
+    <TextView
+        android:id="@+id/txt_fox"
+        style="@style/TextHeaderDrawer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/logo"
+        android:layout_alignEnd="@id/txt_infofox"
+        android:layout_toEndOf="@id/logo"
+        android:text="@string/logo_name_1"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/txt_infofox"
+        style="@style/TextHeaderDrawer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/logo"
+        android:layout_toEndOf="@id/logo"
+        android:text="@string/logo_name_2"
+        android:textColor="@color/colorAccent" />
+
+
+</RelativeLayout>

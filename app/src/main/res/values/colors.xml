@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2A2E43</color>
+    <color name="colorAccent">#3497FD</color>
+    <color name="colorWhite">#FFF</color>
+    <color name="colorDarkBlue1">#454F63</color>
+    <color name="colorDarkBlue2">#78849E</color>
+    <color name="colorDarkBlue3">#212332</color>
+    <color name="colorDarkBlue4">#21232C</color>
+    <color name="colorDarkBlue5">#25293C</color>
+    <color name="colorGray">#979CA8</color>
+    <color name="colorGray2">#BC2A2E43</color>
+    <color name="colorGray3">#A6A8B2</color>
+    <color name="colorGray4">#B6B8C0</color>
+    <color name="colorGrayToDarkBlue">#62718F</color>
+    <color name="colorGrayToDarkBlue2">#353A50</color>
+    <color name="colorTransparent">#00FFFFFF</color>
+    <color name="btnBackgroundDisable">#993497FD</color>
+    <color name="btnTextDisable">#9AFFFFFF</color>
+</resources>

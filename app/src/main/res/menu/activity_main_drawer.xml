@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_darat"
+            android:icon="@drawable/darat"
+            android:title="@string/menu_darat" />
+        <item
+            android:id="@+id/nav_laut"
+            android:icon="@drawable/laut"
+            android:title="@string/menu_laut" />
+        <item
+            android:id="@+id/nav_udara"
+            android:icon="@drawable/udara"
+            android:title="@string/menu_udara" />
+        <item
+            android:id="@+id/nav_buah"
+            android:icon="@drawable/buah"
+            android:title="@string/menu_buah" />
+        <item
+            android:id="@+id/nav_sayuran"
+            android:icon="@drawable/sayur"
+            android:title="@string/menu_sayur" />
+        <item
+            android:id="@+id/nav_tentang"
+            android:icon="@drawable/info"
+            android:title="@string/menu_tentang" />
+    </group>
+
+
+</menu>
