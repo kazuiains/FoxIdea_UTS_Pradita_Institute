@@ -1,7 +1,5 @@
 # FoxIdea Projek UAS Pradita Institute
 
----
-
     Aplikasi bertema Edukasi. Aplikasi pengenalan binatang dan tumbuhan. Ketika aplikasi menampilkan detail binatang yang dapat bersuara, maka akan tampil tombol play untuk memutar suara. Apabila yang tampil adalah detail binatang, maka akan muncul tombol yang akan menampilkan manfaat dari tumbuhan tersebut.
 
 # Screenshot Aplikasi :
